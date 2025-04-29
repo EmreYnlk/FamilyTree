@@ -19,9 +19,9 @@
             <Image url="@images/family-tree-white.png" />
          </image>
       </ImageView>
-      <Label layoutX="115.0" layoutY="247.0" text="Soyağacı İçin Aile Soyismi Giriniz" textFill="WHITE" />
+      <Label layoutX="115.0" layoutY="247.0" text="Soyağacı İçin Aile Soyismini Giriniz" textFill="WHITE" />
       <Button layoutX="149.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#login" style="-fx-background-color: D2A123;" text="Soyağacına Giriş" />
       <Button layoutX="150.0" layoutY="502.0" mnemonicParsing="false" onMouseClicked="#createFamilyTree" style="-fx-background-color: D2A123;" text="Soyağacı oluştur" textFill="WHITE" underline="true" />
-      <TextField fx:id="familySurname" layoutX="126.0" layoutY="288.0" />
+      <TextField fx:id="familyName" layoutX="126.0" layoutY="288.0" />
    </children>
 </AnchorPane>

@@ -5,15 +5,29 @@ import java.util.LinkedList;
 public class human {
     String name;
     String surname;
-    int age;
-    LinkedList<human> childlist;
+    int bornyear;
+    LinkedList<human> childlist ;                 // kişinin kendi çocuklarını tutcak
 
-    public human(String name, String surname, int age) {
+    public human(String name, String surname, int bornyear) {
         this.name = name;
         this.surname = surname;
-        this.age = age;
+        this.bornyear = bornyear;
+        this.childlist = new LinkedList<>();
     }
-    public void add_child(human child){
+    public void addChild(human child){
         childlist.add(child);
+    }
+
+    public String getFullName() {
+        return name + " " + surname;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
     }
 }
