@@ -32,7 +32,6 @@ public class FamilyTree {
     void findleef(){}               //yaprakları bul
     void findlineage(){}            //üst soy
     void findsubtree(){}           // alt soy
-    void search(){}
 
 
 

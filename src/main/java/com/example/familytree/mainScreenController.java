@@ -12,6 +12,7 @@ import javafx.scene.shape.Line;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.util.List;
 import java.util.ArrayList;
@@ -28,8 +29,16 @@ public class mainScreenController {
     private ScrollPane scrollPane_familytree;
 
     @FXML
-    private void familyTreeOperations(){
-        // soy ağacı işlemleri komutu
+    private void familyTreeOperations() throws IOException {                                            // soy ağacı işlemleri komutu
+        FXMLLoader fxmlLoader1 = new FXMLLoader(main.class.getResource("treeOperations.fxml"));
+        Scene scene = new Scene(fxmlLoader1.load());
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.setTitle("Operasyonlar");
+        stage.show();
+
+
+
     }
     @FXML
     private void backToLoginPage() throws IOException {                                       //login ekranına dönecek komutu
@@ -61,16 +70,24 @@ public class mainScreenController {
     }
 
     @FXML
-    public void ciz(){
+    public void esliciz(){
         Pane canvas = new Pane();
         human root = getRoot(currentFamilyName);
 
-        // bu komut deneme komutudur
+        TreeDrawer.nextX[0] = 50; // başlangıç pozisyonunu sıfırla
+
+        TreeDrawer.drawTree(canvas, root, 50, 150,true);  // sadece 4 parametre: Pane, root, y, xSpacing
+
+        scrollPane_familytree.setContent(canvas);
+    }
+    @FXML
+    public void essizciz(){
+        Pane canvas = new Pane();
+        human root = getRoot(currentFamilyName);
 
         TreeDrawer.nextX[0] = 50; // başlangıç pozisyonunu sıfırla
 
-        TreeDrawer.drawTree(canvas, root, 50, 150);  // sadece 4 parametre: Pane, root, y, xSpacing
-
+        TreeDrawer.drawTree(canvas, root, 50, 150,false);  // sadece 4 parametre: Pane, root, y, xSpacing
 
         scrollPane_familytree.setContent(canvas);
     }
@@ -79,11 +96,11 @@ public class mainScreenController {
         private static final double[] nextX = {50};  // başlangıç x pozisyonu
 
 
-        public static double drawTree(Pane pane, human root, double y, double xSpacing) {
+        public static double drawTree(Pane pane, human root, double y, double xSpacing,boolean iswithpartner) {
             if (root.childlist == null || root.childlist.isEmpty()) {
                 // Yaprak düğüm (child yok), bu noktaya çiz
                 double x = nextX[0];
-                placePerson(pane, root, x, y);
+                placePerson(pane, root, x, y,iswithpartner);
                 nextX[0] += xSpacing;
                 return x;
             }
@@ -91,7 +108,7 @@ public class mainScreenController {
             // Çocukları çiz ve ortalamayı hesapla
             List<Double> childXs = new ArrayList<>();
             for (human child : root.childlist) {
-                double childX = drawTree(pane, child, y + 80, xSpacing);
+                double childX = drawTree(pane, child, y + 80, xSpacing,iswithpartner);
                 childXs.add(childX);
             }
 
@@ -100,7 +117,7 @@ public class mainScreenController {
             double maxX = Collections.max(childXs);
             double x = (minX + maxX) / 2;
 
-            placePerson(pane, root, x, y);
+            placePerson(pane, root, x, y,iswithpartner);
 
             // Çocuklarla çizgi çiz
             for (double childX : childXs) {
@@ -110,8 +127,13 @@ public class mainScreenController {
 
             return x;
         }
-        private static void placePerson(Pane pane, human person, double x, double y) {
-            Label label = new Label(person.getFullName());
+        private static void placePerson(Pane pane, human person, double x, double y,boolean iswithpartner) {
+            Label label=new Label();
+            if (iswithpartner){
+                label = new Label(person.getFullNameWithPartner());
+            }else {
+                label = new Label(person.getFullNameWithoutPartner());
+            }
             label.setLayoutX(x - 40);
             label.setLayoutY(y);
             if (person.cinsiyet=='E'){

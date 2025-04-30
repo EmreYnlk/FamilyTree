@@ -10,8 +10,9 @@
       <AnchorPane layoutX="-8.0" layoutY="745.0" prefHeight="65.0" prefWidth="1216.0" AnchorPane.bottomAnchor="-10.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="-8.0">
          <children>
             <Button layoutX="37.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#backToLoginPage" prefHeight="25.0" prefWidth="83.0" text="Geri Dön" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="50.0" />
-            <Button layoutX="529.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#ciz" text="Soy Ağacını Çiz" AnchorPane.bottomAnchor="25.0" />
+            <Button layoutX="404.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#esliciz" text="Soy Ağacını Eşli Çiz/Yenile" AnchorPane.bottomAnchor="25.0" />
             <Button layoutX="995.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#familyTreeOperations" prefHeight="25.0" prefWidth="178.0" text="Soy Ağacı İşlemleri" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="50.0" />
+            <Button layoutX="648.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#essizciz" text="Soy Ağacını Eşsiz Çiz/Yenile" />
          </children>
       </AnchorPane>
    </children>

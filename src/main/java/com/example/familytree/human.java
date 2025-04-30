@@ -28,13 +28,19 @@ public class human {
         child.parent=this;
     }
 
-    public String getFullName() {                  //ilerde değiştirilebilir
+    public String getFullNameWithPartner() {
         if (partner != null) {
-            return name + " & " + partner.name + surname;
+            return name + "&" + partner.name +" "+ surname;
         } else {
-            return this.name;
+            return name+ " " + surname;
         }
     }
+    public String getFullNameWithoutPartner(){
+
+        return name + " " + surname;
+
+    }
+
 
 
 }
