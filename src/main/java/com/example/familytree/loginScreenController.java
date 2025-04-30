@@ -28,19 +28,48 @@ public class loginScreenController {
             stage.show();
 
             mainScreenController.setCurrentFamilyName(familyNameString);        // şu anki aile adini kullanmamız için anaekrancontroller a yazıyor
-        }
-        else {
+        } else if (familyNameString=="") {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Eyvah");
+            alert.setHeaderText(null);
+            alert.setContentText("Hiçbir Şey Girmediniz.Lütfen Bir Değer Giriniz");
+            alert.showAndWait();
+
+        } else {
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Uyarı");
-            alert.setHeaderText("Girdiğiniz Soyadı Sistemde Bulunamadı");
+            alert.setHeaderText(null);
+            alert.setContentText("Girdiğiniz Soyağacı Sistemde Bulunamadı.Bu Soyağacı Adını Kullanarak Yeni Bir Soyağacı Oluşturabilirsiniz. ");
             alert.showAndWait();
         }
 
     }
     @FXML
-    private void createFamilyTree(){
-        System.out.println("Yapılmadı daha sonra gel");
-        // burada bir soyadı alınıp o soyadına ait bir soyağacı sınıfından nesne oluşturulacak ve mainScreen e yönlendirilecek
+    private void createFamilyTree(){                                   // burada bir soyadı alınıp o soyadına ait bir soyağacı sınıfından nesne oluşturulacak ve mainScreen e yönlendirilecek
+
+        String familyNameString = familyName.getText();
+        if(isFamilyNameinList(familyNameString)){
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Uyarı");
+            alert.setHeaderText(null);
+            alert.setContentText("Girdiğiniz Soyağacı Zaten Sistemde Bulunmaktadir.Bu Soyağacı Adını Kullanarak Yeni Bir Soyağacı Oluşturamazsınız. ");
+            alert.showAndWait();
+        }else if (familyNameString=="") {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Eyvah");
+            alert.setHeaderText(null);
+            alert.setContentText("Hiçbir Şey Girmediniz.Lütfen Bir Değer Giriniz");
+            alert.showAndWait();
+        }
+        else {
+            System.out.println("Yapılmadı daha sonra gel . girilen: " +familyNameString);
+
+
+
+
+            mainScreenController.setCurrentFamilyName(familyNameString);
+        }
+
 
     }
 }
