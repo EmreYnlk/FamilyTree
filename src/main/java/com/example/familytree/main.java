@@ -66,22 +66,16 @@ public class main extends Application {
 
 
 
-        //////////////////////////////////////7 burda hata varrrrrrrrrrrr
         private static void randomizeMarriedStatus(human root) {
             if (root == null) return;
 
             if (root.childlist.isEmpty() && random.nextBoolean()) {
-                if (root.partner != null) {
-                    root.partner.partner = null;
-                }
                 root.partner = null;
             }
 
             for (human child : root.childlist) {
                 randomizeMarriedStatus(child);
-            }
-        }
-        ////////////////////////////////////////////////
+            }}
 
 
         private static human generateRandomTree(int depth, int maxChildren, boolean[] havechildren) {

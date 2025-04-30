@@ -28,10 +28,10 @@ public class FamilyTree {
         this.root = root;}
 //------------------------------constructors-------------------------------//
 
-
+    //bunlar burda mı duracak yoksa controller da mı emin değilim
     void findleef(){}               //yaprakları bul
-    void finddedscendant(){}        //torun bul
-    void findancestor(){}           // dedeler bul
+    void findlineage(){}            //üst soy
+    void findsubtree(){}           // alt soy
     void search(){}
 
 

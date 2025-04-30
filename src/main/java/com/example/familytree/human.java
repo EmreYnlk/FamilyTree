@@ -28,7 +28,7 @@ public class human {
         child.parent=this;
     }
 
-    public String getFullName() {
+    public String getFullName() {                  //ilerde değiştirilebilir
         if (partner != null) {
             return name + " & " + partner.name + surname;
         } else {
