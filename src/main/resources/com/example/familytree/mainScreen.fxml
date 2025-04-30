@@ -7,11 +7,11 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.familytree.mainScreenController">
    <children>
       <ScrollPane fx:id="scrollPane_familytree" prefHeight="745.0" prefWidth="1200.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-      <AnchorPane layoutX="-8.0" layoutY="745.0" prefHeight="65.0" prefWidth="1216.0">
+      <AnchorPane layoutX="-8.0" layoutY="745.0" prefHeight="65.0" prefWidth="1216.0" AnchorPane.bottomAnchor="-10.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="-8.0">
          <children>
-            <Button layoutX="37.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Geri Dön" />
-            <Button layoutX="529.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#ciz" text="ciz-ardından sil" />
-            <Button layoutX="995.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" text="Soy Ağacı İşlemleri" />
+            <Button layoutX="37.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Geri Dön" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="50.0" />
+            <Button layoutX="529.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#ciz" text="ciz-ardından sil" AnchorPane.bottomAnchor="25.0" />
+            <Button layoutX="995.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" text="Soy Ağacı İşlemleri" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="50.0" />
          </children>
       </AnchorPane>
    </children>

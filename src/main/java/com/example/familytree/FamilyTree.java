@@ -18,7 +18,7 @@ public class FamilyTree {
 
 
 
-    //------------------------------constructors-------------------------------//
+//------------------------------constructors-------------------------------//
     public FamilyTree(String familytreename) {
         this.familytreename = familytreename;
         allfamilytree.add(this);}
@@ -26,7 +26,7 @@ public class FamilyTree {
         this.familytreename = familytreename;
         allfamilytree.add(this);
         this.root = root;}
-    //------------------------------constructors-------------------------------//
+//------------------------------constructors-------------------------------//
 
 
     void findleef(){}               //yaprakları bul
@@ -48,7 +48,5 @@ public static human getRoot(String familyname) {
     }
     return null;
 }
-
-
 //******************************(Getter and Setter)******************************//
 }

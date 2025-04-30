@@ -32,13 +32,14 @@ public class loginScreenController {
         else {
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Uyarı");
-            alert.setHeaderText("Soyadı Geçersiz");
+            alert.setHeaderText("Girdiğiniz Soyadı Sistemde Bulunamadı");
             alert.showAndWait();
         }
 
     }
     @FXML
     private void createFamilyTree(){
+        System.out.println("Yapılmadı daha sonra gel");
         // burada bir soyadı alınıp o soyadına ait bir soyağacı sınıfından nesne oluşturulacak ve mainScreen e yönlendirilecek
 
     }

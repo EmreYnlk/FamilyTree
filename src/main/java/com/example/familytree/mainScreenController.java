@@ -82,7 +82,11 @@ public class mainScreenController {
             Label label = new Label(person.getFullName());
             label.setLayoutX(x - 40);
             label.setLayoutY(y);
-            label.setTextFill(Color.BLACK);
+            if (person.cinsiyet=='E'){
+                label.setTextFill(Color.BLUE);
+            }else {
+                label.setTextFill(Color.DEEPPINK);
+            }
             pane.getChildren().add(label);
         }
 

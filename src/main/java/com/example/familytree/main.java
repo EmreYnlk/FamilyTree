@@ -31,10 +31,11 @@ public class main extends Application {
 
         private static final Random random = new Random();
 
-        private static final List<String> names = Arrays.asList(
-                "Emre", "Zeynep", "Elif", "Mert", "Deniz", "Burak", "Ayşe", "Mehmet", "Fatma", "Ali",
-                "Can", "Cem", "Selin", "Ahmet", "Derya", "Sena", "Baran", "İpek", "Ege", "Hülya",
-                "Sibel", "Arda", "Melis", "Onur", "Aslı", "Serkan", "Ezgi", "Cansu", "Gizem", "Kerem"
+        private static final List<String> boys = Arrays.asList(
+                "Emre","Mert", "Burak", "Mehmet", "Ali", "Can", "Cem", "Ahmet", "Baran", "Ege", "Arda", "Onur", "Serkan", "Kerem"
+        );
+        private static final List<String> girls = Arrays.asList(
+                "Zeynep", "Elif","Ayşe","Fatma", "Selin",  "Derya", "Sena", "İpek", "Hülya","Sibel", "Melis","Aslı", "Ezgi", "Cansu", "Gizem"
         );
 
         private static final List<String> surnames = Arrays.asList(
@@ -49,10 +50,19 @@ public class main extends Application {
         }
 
         private static human generateRandomTree(int depth, int maxChildren, boolean[] havechildren) {
-            String name = names.get(random.nextInt(names.size()));
+            int randomsayi = random.nextInt(2);
+            String name;
+            char cinsiyet;
+            if (randomsayi==1){
+                name = boys.get(random.nextInt(boys.size()));
+                cinsiyet = 'E';
+            }else {
+                name = girls.get(random.nextInt(girls.size()));
+                cinsiyet = 'K';
+            }
             String surname = surnames.get(random.nextInt(surnames.size()));
             int birthyear = 0;
-            human person = new human(name, surname, birthyear);
+            human person = new human(name, surname, birthyear,cinsiyet);
 
             if (depth > 0) {
                 int childCount = random.nextInt(maxChildren + 1);
