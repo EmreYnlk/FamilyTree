@@ -24,6 +24,8 @@ public class loginScreenController {
             Stage stage = (Stage) familyName.getScene().getWindow();
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("mainScreen.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
+            stage.setX(150);
+            stage.setY(150);
             stage.setScene(scene);
             stage.show();
 

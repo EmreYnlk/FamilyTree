@@ -30,13 +30,12 @@ public class mainScreenController {
 
     @FXML
     private void familyTreeOperations() throws IOException {                                            // soy ağacı işlemleri komutu
-        FXMLLoader fxmlLoader1 = new FXMLLoader(main.class.getResource("treeOperations.fxml"));
-        Scene scene = new Scene(fxmlLoader1.load());
-        Stage stage = new Stage();
+        Stage stage = (Stage) scrollPane_familytree.getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("treeOperations.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
         stage.setScene(scene);
         stage.setTitle("Operasyonlar");
         stage.show();
-
 
 
     }

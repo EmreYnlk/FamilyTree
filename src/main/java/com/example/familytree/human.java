@@ -6,14 +6,14 @@ public class human {
     String name;
     String surname;
     char cinsiyet;
-    int bornyear;
+    String bornyear;                          //  GG-AA-YYYY şeklinde tutulacak
     human parent;
     human partner;
     int personalid;
     LinkedList<human> childlist ;                 // kişinin kendi çocuklarını tutcak
-    static int idCount= 0;
+    static int idCount= 1234;
 
-    public human(String name, String surname, int bornyear,char cinsiyet) {
+    public human(String name, String surname, String bornyear,char cinsiyet) {
         this.name = name;
         this.surname = surname;
         this.bornyear = bornyear;
@@ -28,6 +28,9 @@ public class human {
         child.parent=this;
     }
 
+
+//******************************(Getter and Setter)******************************//
+
     public String getFullNameWithPartner() {
         if (partner != null) {
             return name + "&" + partner.name +" "+ surname;
@@ -40,6 +43,54 @@ public class human {
         return name + " " + surname;
 
     }
+    public String getFullNameWithEmoji(){
+        if (cinsiyet=='E'){
+            return "♂ "+name + " " + surname ;
+        }else {
+            return "♀ "+name + " " + surname ;
+        }
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public char getCinsiyet() {
+        return cinsiyet;
+    }
+
+    public String getBornyear() {
+        return bornyear;
+    }
+
+    public human getParent() {
+        return parent;
+    }
+
+    public human getPartner() {
+        return partner;
+    }
+
+    public int getPersonalid() {
+        return personalid;
+    }
+
+    public LinkedList<human> getChildlist() {
+        return childlist;
+    }
+
+    public static int getIdCount() {
+        return idCount;
+    }
+
+
+    //******************************(Getter and Setter)******************************//
+
 
 
 

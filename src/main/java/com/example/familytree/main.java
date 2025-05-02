@@ -48,17 +48,20 @@ public class main extends Application {
             boolean[] havechildren = new boolean[depth];
             human root = generateRandomTree(depth, maxChildren, havechildren);
             FamilyTree tree2 = new FamilyTree(familytreenamerandom,root);
-            correctSurnames(root);
             randomizeMarriedStatus(root);
+            correctSurnames(root);
 
         }
         private static void correctSurnames(human root) {
             if (root == null) return;
 
             for (human child : root.childlist) {
-                if (child.cinsiyet == 'E') {
+                if (child.cinsiyet == 'E'&& child.partner!=null) {             // eğer eşi olmadan eşinin soy adını değiştirmeye çalışsaydı hata verecekti
                     child.surname = root.surname;
                     child.partner.surname = child.surname;
+                }
+                if (child.partner==null){
+                    child.surname = root.surname;
                 }
                 correctSurnames(child);
             }
@@ -81,7 +84,7 @@ public class main extends Application {
         private static human generateRandomTree(int depth, int maxChildren, boolean[] havechildren) {
             int randomtemp = random.nextInt(2);
             String name;
-            human partner = new human("aa","aa",0,'a');
+            human partner = new human("aa","aa","01-01-1800",'a');
             char cinsiyet;
             String surname = surnames.get(random.nextInt(surnames.size()));
 
@@ -101,7 +104,7 @@ public class main extends Application {
                 partner.cinsiyet='E';
             }
 
-            int birthyear = 0;
+            String birthyear = "01-01-1800";
             human person = new human(name, surname, birthyear,cinsiyet);
 
             partner.surname=person.surname;
