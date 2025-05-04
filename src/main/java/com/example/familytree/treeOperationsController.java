@@ -50,10 +50,6 @@ public class treeOperationsController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         rightAnchor.setVisible(false);
-
-
-
-
         human familytreeRoot = FamilyTree.getRoot(mainScreenController.getCurrentFamilyName());
         treeViewfamilytree.setStyle("-fx-font-size: 18px;");
         if (familytreeRoot == null) {
@@ -208,13 +204,6 @@ public class treeOperationsController implements Initializable {
     private void deletePerson(){
 
     }
-
-
-
-
-
-
-
 
     @FXML
     private void changePartnerinfo() throws IOException {

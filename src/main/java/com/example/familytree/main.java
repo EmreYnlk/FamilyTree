@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
-import java.util.*;
+import java.util.Random;
 
 public class main extends Application {
     @Override
@@ -21,11 +21,7 @@ public class main extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
-
-
-    }
+    public static void main(String[] args) {launch();}
 
     private static class begining {
         private static final String familytreenamerandom= "hazir";
@@ -50,8 +46,8 @@ public class main extends Application {
             FamilyTree tree2 = new FamilyTree(familytreenamerandom,root);
             randomizeMarriedStatus(root);
             correctSurnames(root);
-
         }
+
         private static void correctSurnames(human root) {
             if (root == null) return;
 
@@ -66,8 +62,6 @@ public class main extends Application {
                 correctSurnames(child);
             }
         }
-
-
 
         private static void randomizeMarriedStatus(human root) {
             if (root == null) return;
@@ -126,13 +120,7 @@ public class main extends Application {
 
                 havechildren[depth - 1] = true;
             }
-
             return person;
         }
-
-
     }
-
-
-
 }

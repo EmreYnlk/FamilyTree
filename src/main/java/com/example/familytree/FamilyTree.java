@@ -16,9 +16,7 @@ public class FamilyTree {
         return false;
     }
 
-
-
-//------------------------------constructors-------------------------------//
+    //------------------------------constructors-------------------------------//
     public FamilyTree(String familytreename) {
         this.familytreename = familytreename;
         allfamilytree.add(this);}
@@ -34,18 +32,14 @@ public class FamilyTree {
     void findsubtree(){}           // alt soy
 
 
-
-
-
-
-//******************************(Getter and Setter)******************************//
-public static human getRoot(String familyname) {
-    for (FamilyTree tree : allfamilytree) {
-        if (tree.familytreename.equals(familyname)) {
-            return tree.root;
+    //******************************(Getter and Setter)******************************//
+    public static human getRoot(String familyname) {
+        for (FamilyTree tree : allfamilytree) {
+            if (tree.familytreename.equals(familyname)) {
+                return tree.root;
+            }
         }
+        return null;
     }
-    return null;
-}
-//******************************(Getter and Setter)******************************//
+    //******************************(Getter and Setter)******************************//
 }

@@ -1,16 +1,16 @@
 package com.example.familytree;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+
 import static com.example.familytree.FamilyTree.isFamilyNameinList;
 
-// turuncu kodu   D2A123
 
 public class loginScreenController {
     @FXML
@@ -22,7 +22,7 @@ public class loginScreenController {
         if(isFamilyNameinList(familyNameString)){
 
             Stage stage = (Stage) familyName.getScene().getWindow();
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("mainScreen.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("treeOperations.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             stage.setX(150);
             stage.setY(150);
@@ -66,12 +66,7 @@ public class loginScreenController {
         else {
             System.out.println("Yapılmadı daha sonra gel . girilen: " +familyNameString);
 
-
-
-
             mainScreenController.setCurrentFamilyName(familyNameString);
         }
-
-
     }
 }

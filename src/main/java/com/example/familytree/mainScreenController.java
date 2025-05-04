@@ -5,19 +5,17 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
+import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.Pane;
-import javafx.scene.control.Label;
-import javafx.scene.shape.Line;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 
-import javax.swing.*;
 import java.io.IOException;
-import java.util.List;
 import java.util.ArrayList;
-
 import java.util.Collections;
+import java.util.List;
 import java.util.Optional;
 
 import static com.example.familytree.FamilyTree.getRoot;
@@ -36,7 +34,6 @@ public class mainScreenController {
         stage.setScene(scene);
         stage.setTitle("Operasyonlar");
         stage.show();
-
 
     }
     @FXML
@@ -93,8 +90,6 @@ public class mainScreenController {
 
     private static class TreeDrawer {
         private static final double[] nextX = {50};  // başlangıç x pozisyonu
-
-
         public static double drawTree(Pane pane, human root, double y, double xSpacing,boolean iswithpartner) {
             if (root.childlist == null || root.childlist.isEmpty()) {
                 // Yaprak düğüm (child yok), bu noktaya çiz
@@ -146,16 +141,7 @@ public class mainScreenController {
     }
 
 
-
-
-
-
-
-
-
-
-
-//******************************(Getter and Setter)******************************//
+    //******************************(Getter and Setter)******************************//
     public static String getCurrentFamilyName() {
         return currentFamilyName;
     }
