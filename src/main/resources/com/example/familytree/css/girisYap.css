@@ -1,0 +1,35 @@
+.girisYapBtn {
+    -fx-background-color: #1f2837;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-background-radius: 12;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 4, 0, 0, 2);
+    -fx-border-color: transparent;
+    -fx-border-radius: 12;
+}
+
+.girisYapBtn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #039a81, #027961);
+    -fx-text-fill: white;
+}
+.soyagaciOlusturBtn {
+    -fx-background-color:  #016454;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+
+}
+
+.soyagaciOlusturBtn:hover {
+
+}
+.girisTextField {
+    -fx-text-fill: #1f2837;
+    -fx-background-radius: 8;
+    }
+

@@ -4,15 +4,15 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.familytree.mainScreenController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.familytree.mainScreenController">
    <children>
-      <ScrollPane fx:id="scrollPane_familytree" prefHeight="745.0" prefWidth="1200.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ScrollPane fx:id="scrollPane_familytree" prefHeight="745.0" prefWidth="1200.0" stylesheets="@css/scrollBar.css" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <AnchorPane layoutX="-8.0" layoutY="745.0" prefHeight="65.0" prefWidth="1216.0" AnchorPane.bottomAnchor="-10.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="-8.0">
          <children>
-            <Button layoutX="37.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#backToLoginPage" prefHeight="25.0" prefWidth="83.0" text="Geri Dön" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="50.0" />
-            <Button layoutX="404.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#esliciz" text="Soy Ağacını Eşli Çiz/Yenile" AnchorPane.bottomAnchor="25.0" />
-            <Button layoutX="995.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#familyTreeOperations" prefHeight="25.0" prefWidth="178.0" text="Soy Ağacı İşlemleri" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="50.0" />
-            <Button layoutX="648.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#essizciz" text="Soy Ağacını Eşsiz Çiz/Yenile" />
+            <Button layoutX="50.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#backToLoginPage" prefHeight="34.0" prefWidth="104.0" text="Geri Dön" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="50.0" />
+            <Button layoutX="319.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#esliciz" text="Soy Ağacını Eşli Çiz/Yenile" AnchorPane.bottomAnchor="23.0" />
+            <Button layoutX="979.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#familyTreeOperations" prefHeight="25.0" prefWidth="178.0" text="Soy Ağacı İşlemleri" AnchorPane.bottomAnchor="23.0" AnchorPane.rightAnchor="59.0" />
+            <Button layoutX="665.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#essizciz" text="Soy Ağacını Eşsiz Çiz/Yenile" />
          </children>
       </AnchorPane>
    </children>

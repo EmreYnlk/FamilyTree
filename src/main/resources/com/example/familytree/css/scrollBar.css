@@ -1,0 +1,84 @@
+/* === SCROLLPANE === */
+.scroll-pane {
+    -fx-background-color: linear-gradient(to bottom, #f7fdfc, #e8f5f1);
+    -fx-border-color: #d0e8e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-padding: 10;
+}
+
+/* İçerik alanı */
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Scrollbar ayarları */
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 2;
+}
+
+.scroll-bar .track {
+    -fx-background-color: rgba(150, 150, 150, 0.1);
+    -fx-background-radius: 10;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: linear-gradient(to bottom, #58d3b0, #34a38c);
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 2, 0.3, 0, 1);
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: linear-gradient(to bottom, #2b8c77, #1e6456);
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-shape: "";
+}
+
+.scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+/* === İÇERİK: Aile Ağacı Düğümleri === */
+.family-node {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: #b2bec3;
+    -fx-border-width: 1;
+    -fx-padding: 10;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.07), 3, 0.2, 0, 1);
+}
+
+/* Erkek düğüm rengi */
+.family-node.male {
+    -fx-background-color: #e3f9f5;
+    -fx-border-color: #75dad2;
+}
+
+/* Kadın düğüm rengi */
+.family-node.female {
+    -fx-background-color: #fceff9;
+    -fx-border-color: #f39acb;
+}
+
+/* Yazı taşmasın, kutular esnek olsun */
+.family-node .label {
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+}
+
+/* Düğüm konumları düzgün aralansın diye */
+.family-tree-container {
+    -fx-spacing: 30;
+    -fx-alignment: center;
+    -fx-padding: 40;
+}
