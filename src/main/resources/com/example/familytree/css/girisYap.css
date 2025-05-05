@@ -26,6 +26,7 @@
 }
 
 .soyagaciOlusturBtn:hover {
+    -fx-text-fill:  #1f2837;
 
 }
 .girisTextField {

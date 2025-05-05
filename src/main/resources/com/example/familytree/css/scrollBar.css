@@ -82,3 +82,15 @@
     -fx-alignment: center;
     -fx-padding: 40;
 }
+/* Label'lar */
+    .soyAgaciCiz {
+        -fx-font-size: 18px;
+    }
+
+    /* Başlıklar */
+    .soyAgaciCiz.header {
+        -fx-font-size: 20px;
+        -fx-font-weight: bold;
+        -fx-text-fill: #34495e;
+    }
+

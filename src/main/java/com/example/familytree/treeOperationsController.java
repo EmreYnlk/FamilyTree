@@ -3,13 +3,12 @@ package com.example.familytree;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-
 
 import java.io.IOException;
 import java.net.URL;
@@ -24,6 +23,7 @@ public class treeOperationsController implements Initializable {
     private Label Upper_label_1,Upper_label_2,left_bottom_label1,partnerLabel;
     @FXML
     private AnchorPane rightAnchor;
+
     @FXML
     private DatePicker birthDatePicker;
     @FXML
@@ -37,7 +37,7 @@ public class treeOperationsController implements Initializable {
     @FXML
     private ChoiceBox<human> fatherChoicebox,motherChoicebox;
     @FXML
-    private Button saveChangesButton,deletePersonButton;
+    private Button saveChangesButton,deletePersonButton,iptalBtn, soyAgaciCiz;
     @FXML
     private ImageView partnerImage;
 
@@ -80,17 +80,28 @@ public class treeOperationsController implements Initializable {
         });
 
 
-
-
+        Image maleIcon = new Image(getClass().getResource("/com/example/familytree/icons/male.png").toExternalForm());
+        Image femaleIcon = new Image(getClass().getResource("/com/example/familytree/icons/female.png").toExternalForm());
 
         treeViewfamilytree.setCellFactory(tv -> new TreeCell<>() {
             @Override
             protected void updateItem(human item, boolean empty) {
                 super.updateItem(item, empty);
                 if (empty || item == null) {
-                    setText(null);  // Boş öğe ya da null verisi varsa, yazıyı kaldır
+                    setText(null);
+                    setGraphic(null);
                 } else {
-                    setText(item.getFullNameWithEmoji());  // Eğer öğe varsa, isim ve emoji göster
+                    setText(item.getFullNameWithoutPartner());
+
+                    ImageView iconView;
+                    if (item.cinsiyet == 'E') {
+                        iconView = new ImageView(maleIcon);
+                    } else {
+                        iconView = new ImageView(femaleIcon);
+                    }
+                    iconView.setFitWidth(15);  // isteğe bağlı boyutlandırma
+                    iconView.setFitHeight(15);
+                    setGraphic(iconView);
                 }
             }
         });
@@ -108,6 +119,8 @@ public class treeOperationsController implements Initializable {
     }
 
 
+
+
     @FXML
     public void bringinformation() {
         setEditable(false);
@@ -118,7 +131,7 @@ public class treeOperationsController implements Initializable {
 
             Upper_label_1.setText("Kişi Bilgileri");
             rightAnchor.setVisible(true);
-            left_bottom_label1.setText(selected.getFullNameWithoutPartner()+" 'nın Detayları");
+            left_bottom_label1.setText(selected.getFullNameWithoutPartner()+" Detayları");
             nameLabel.setText(selected.name);
             surnameLabel.setText(selected.surname);
             if (selected.cinsiyet=='E'){
@@ -160,20 +173,18 @@ public class treeOperationsController implements Initializable {
         stage.show();
     }
 
-
-
     private void setEditable(boolean bool){
-    nameLabel.setEditable(bool);
-    surnameLabel.setEditable(bool);
-    femaleRadioButton.setMouseTransparent(!bool);
-    maleRadioButton.setMouseTransparent(!bool);
+        nameLabel.setEditable(bool);
+        surnameLabel.setEditable(bool);
+        femaleRadioButton.setMouseTransparent(!bool);
+        maleRadioButton.setMouseTransparent(!bool);
 
 
-    birthDatePicker.setMouseTransparent(!bool);
-    birthDatePicker.setFocusTraversable(bool);
-    fatherChoicebox.setMouseTransparent(!bool);
-    motherChoicebox.setMouseTransparent(!bool);
-    partnerImage.setVisible(bool);
+        birthDatePicker.setMouseTransparent(!bool);
+        birthDatePicker.setFocusTraversable(bool);
+        fatherChoicebox.setMouseTransparent(!bool);
+        motherChoicebox.setMouseTransparent(!bool);
+        partnerImage.setVisible(bool);
     }
 
     @FXML
@@ -185,10 +196,12 @@ public class treeOperationsController implements Initializable {
         fatherChoicebox.setMouseTransparent(true);
 
     }
+
     @FXML
     private void changeInformations(){
         saveChangesButton.setVisible(true);
         deletePersonButton.setVisible(true);
+        iptalBtn.setVisible(true);
         setEditable(true);
         if (selectedperson.parent!=null){
             if (selectedperson.parent.cinsiyet=='E'){
@@ -198,8 +211,17 @@ public class treeOperationsController implements Initializable {
                 fatherChoicebox.setMouseTransparent(true);
                 motherChoicebox.setMouseTransparent(false);
             }}
-
     }
+
+    @FXML
+    private void iptalEt() {
+        saveChangesButton.setVisible(false);
+        deletePersonButton.setVisible(false);
+        iptalBtn.setVisible(false);
+        setEditable(false);  // Alanları tekrar pasif yap
+        bringinformation();  // Seçili kişiyi yeniden yükle, yani geri al
+    }
+
     @FXML
     private void deletePerson(){
 

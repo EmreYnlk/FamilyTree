@@ -20,6 +20,12 @@
         -fx-text-fill: #34495e;
     }
 
+    .esLabel {
+        -fx-font-size: 20px;
+        -fx-text-fill: black;
+        -fx-font-family: "Arial";
+    }
+
     .button {
         -fx-background-color: #1f2837;
         -fx-font-family: "Arial";
@@ -44,11 +50,12 @@
 
     /* TextField ve ChoiceBox */
     .date-picker, .choice-box {
+        -fx-font-family: "Arial Black";
         -fx-background-radius: 8;
         -fx-border-radius: 8;
         -fx-border-color: transparent;
         -fx-padding: 6;
-        -fx-font-size: 14px;
+        -fx-font-size: 12px;
         -fx-background-color: transparent;
     }
     .text-field {
@@ -60,11 +67,6 @@
             -fx-background-color: transparent;
     }
 
-    /* RadioButton */
-    .radio-button {
-        -fx-font-size: 14px;
-        -fx-text-fill: #2c3e50;
-    }
 
     /* TreeView */
     .tree-view {
@@ -83,12 +85,13 @@
 
     /* ListView */
     .list-view {
+        -fx-font-family: "Arial Black";
         -fx-background-color: transparent;
         -fx-border-color: #1f2837;
         -fx-border-radius: 8;
         -fx-background-radius: 8;
         -fx-padding: 6;
-        -fx-font-size: 14px;
+        -fx-font-size: 12px;
     }
 
     .list-cell {
@@ -110,4 +113,16 @@
         -fx-text-fill: white;
         -fx-cursor: hand;
     }
+    /* Label'lar */
+        .soyAgaciCiz {
+            -fx-font-size: 18px;
+        }
+
+        /* Başlıklar */
+        .soyAgaciCiz.header {
+            -fx-font-size: 20px;
+            -fx-font-weight: bold;
+            -fx-text-fill: #34495e;
+        }
+
 }
