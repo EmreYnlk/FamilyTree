@@ -2,7 +2,6 @@
 
 <?import java.net.URL?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
@@ -126,10 +125,10 @@
                   <Font name="Arial Black" size="38.0" />
                </font>
             </Label>
-            <ChoiceBox fx:id="fatherChoicebox" layoutX="141.0" layoutY="344.0" prefWidth="150.0" />
-            <ChoiceBox fx:id="motherChoicebox" layoutX="141.0" layoutY="294.0" prefWidth="150.0" />
             <Label fx:id="left_bottom_label1" layoutX="141.0" layoutY="35.0" prefHeight="32.0" prefWidth="348.0" styleClass="akrabalarLabel" stylesheets="@css/kaydetBtn.css" AnchorPane.bottomAnchor="590.0" />
             <Button fx:id="iptalBtn" mnemonicParsing="false" onMouseClicked="#iptalEt" prefHeight="40.0" prefWidth="103.0" text="İptal" visible="false" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="534.0" />
+            <Label fx:id="motherLabel" layoutX="167.0" layoutY="310.0" prefHeight="27.0" prefWidth="136.0" text="Anne" />
+            <Label fx:id="fatherLabel" layoutX="167.0" layoutY="357.0" prefHeight="27.0" prefWidth="136.0" text="Baba" />
          </children>
       </AnchorPane>
       <ImageView fitHeight="45.0" fitWidth="57.0" layoutX="34.0" layoutY="33.0" onMouseClicked="#backtomainpage" pickOnBounds="true" preserveRatio="true">

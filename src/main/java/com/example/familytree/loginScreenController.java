@@ -24,12 +24,18 @@ public class loginScreenController {
             Stage stage = (Stage) familyName.getScene().getWindow();
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("treeOperations.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
+            mainScreenController.setCurrentFamilyName(familyNameString);
+            treeOperationsController controller = fxmlLoader.getController();
+            controller.setupTree();
+
             stage.setX(150);
             stage.setY(150);
             stage.setScene(scene);
             stage.show();
 
             mainScreenController.setCurrentFamilyName(familyNameString);        // şu anki aile adini kullanmamız için anaekrancontroller a yazıyor
+
+
         } else if (familyNameString=="") {
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Eyvah");
@@ -66,7 +72,7 @@ public class loginScreenController {
         else {
             System.out.println("Yapılmadı daha sonra gel . girilen: " +familyNameString);
 
-            mainScreenController.setCurrentFamilyName(familyNameString);
+            // mainScreenController.setCurrentFamilyName(familyNameString);
         }
     }
 }

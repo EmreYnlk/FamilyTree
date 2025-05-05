@@ -9,9 +9,7 @@ public class human {
     String bornyear;                          //  GG-AA-YYYY şeklinde tutulacak
     human parent;
     human partner;
-    int personalid;
     LinkedList<human> childlist ;                 // kişinin kendi çocuklarını tutcak
-    static int idCount= 1234;
 
     public human(String name, String surname, String bornyear,char cinsiyet) {
         this.name = name;
@@ -20,7 +18,6 @@ public class human {
         this.cinsiyet=cinsiyet;
         this.partner=null;
         this.parent=null;
-        this.personalid = idCount++;
         this.childlist = new LinkedList<>();
     }
     public void addChild(human child){
@@ -43,15 +40,6 @@ public class human {
         return name + " " + surname;
 
     }
-    public String getFullNameWithEmoji(){
-        if (cinsiyet=='E'){
-            return "♂ "+name + " " + surname ;
-        }else {
-            return "♀ "+name + " " + surname ;
-        }
-
-    }
-
     public String getName() {
         return name;
     }
@@ -76,16 +64,8 @@ public class human {
         return partner;
     }
 
-    public int getPersonalid() {
-        return personalid;
-    }
-
     public LinkedList<human> getChildlist() {
         return childlist;
-    }
-
-    public static int getIdCount() {
-        return idCount;
     }
 
 
