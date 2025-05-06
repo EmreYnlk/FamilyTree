@@ -2,6 +2,7 @@
 
 <?import java.net.URL?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
@@ -38,11 +39,11 @@
                   <Font name="Arial Bold" size="25.0" />
                </font>
             </Label>
-            <TextField fx:id="nameLabel" layoutX="117.0" layoutY="46.0" prefHeight="25.0" prefWidth="174.0" AnchorPane.bottomAnchor="551.0" AnchorPane.leftAnchor="117.0" AnchorPane.topAnchor="46.0">
+            <TextField fx:id="nameTextfield" layoutX="117.0" layoutY="46.0" prefHeight="25.0" prefWidth="174.0" AnchorPane.bottomAnchor="551.0" AnchorPane.leftAnchor="117.0" AnchorPane.topAnchor="46.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></TextField>
-            <TextField fx:id="surnameLabel" layoutX="119.0" layoutY="101.0" prefHeight="25.0" prefWidth="174.0" AnchorPane.bottomAnchor="505.0" AnchorPane.leftAnchor="119.0">
+            <TextField fx:id="surnameTextfield" layoutX="119.0" layoutY="101.0" prefHeight="25.0" prefWidth="174.0" AnchorPane.bottomAnchor="505.0" AnchorPane.leftAnchor="119.0">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></TextField>
@@ -80,27 +81,27 @@
                </font>
             </Label>
             <DatePicker fx:id="birthDatePicker" layoutX="152.0" layoutY="194.0" prefHeight="25.0" prefWidth="155.0" />
-            <Label layoutX="36.0" layoutY="280.0" prefHeight="27.0" prefWidth="64.0" text="Anne:" AnchorPane.bottomAnchor="310.0" AnchorPane.leftAnchor="16.0">
+            <Label fx:id="mothertextLabel" layoutX="36.0" layoutY="280.0" prefHeight="27.0" prefWidth="64.0" text="Anne:" AnchorPane.bottomAnchor="310.0" AnchorPane.leftAnchor="16.0">
                <font>
                   <Font name="Arial" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="16.0" layoutY="317.0" prefHeight="27.0" prefWidth="64.0" text="Baba:" AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="16.0">
+            <Label fx:id="fathertextLabel" layoutX="16.0" layoutY="317.0" prefHeight="27.0" prefWidth="64.0" text="Baba:" AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="16.0">
                <font>
                   <Font name="Arial" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="15.0" layoutY="390.0" prefHeight="27.0" prefWidth="64.0" text="Eş:" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="382.0">
+            <Label fx:id="esLabel_1" layoutX="15.0" layoutY="390.0" prefHeight="27.0" prefWidth="64.0" text="Eş:" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="382.0">
                <font>
                   <Font name="Arial" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="18.0" layoutY="448.0" prefHeight="27.0" prefWidth="89.0" text="Çocuklar:" AnchorPane.bottomAnchor="146.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="448.0">
+            <Label fx:id="cocuklarLabel_1" layoutX="18.0" layoutY="448.0" prefHeight="27.0" prefWidth="89.0" text="Çocuklar:" AnchorPane.bottomAnchor="146.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="448.0">
                <font>
                   <Font name="Arial" size="17.0" />
                </font>
             </Label>
-            <Label layoutX="18.0" layoutY="541.0" prefHeight="27.0" prefWidth="89.0" text="Torunlar:" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="541.0">
+            <Label fx:id="torunlarLabel_1" layoutX="18.0" layoutY="541.0" prefHeight="27.0" prefWidth="89.0" text="Torunlar:" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="541.0">
                <font>
                   <Font name="Arial" size="17.0" />
                </font>
@@ -118,7 +119,7 @@
                </image>
             </ImageView>
             <Button fx:id="saveChangesButton" layoutX="16.0" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#saveChanges" prefHeight="40.0" prefWidth="177.0" styleClass="kydtBtn" stylesheets="@css/kaydetBtn.css" text="Değişiklikleri Kaydet" visible="false" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="80.0" />
-            <Button layoutX="502.0" layoutY="592.0" mnemonicParsing="false" onMouseClicked="#changeInformations" prefHeight="40.0" prefWidth="103.0" text="Düzenle" AnchorPane.rightAnchor="22.0" />
+            <Button fx:id="duzenleButton" layoutX="502.0" layoutY="592.0" mnemonicParsing="false" onMouseClicked="#editButtonAction" prefHeight="40.0" prefWidth="103.0" text="Düzenle" AnchorPane.rightAnchor="22.0" />
             <Button fx:id="deletePersonButton" layoutX="167.0" layoutY="454.0" mnemonicParsing="false" onMouseClicked="#deletePerson" prefHeight="40.0" prefWidth="103.0" text="Kişiyi Sil" visible="false" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="450.0" />
             <Label fx:id="Upper_label_1" layoutX="21.0" layoutY="-18.0" prefHeight="35.0" prefWidth="206.0" styleClass="buyukBasliklar" stylesheets="@css/kisi.css" text="Kişi Seçiniz" textFill="#4dcea3" AnchorPane.leftAnchor="21.0">
                <font>
@@ -129,13 +130,16 @@
             <Button fx:id="iptalBtn" mnemonicParsing="false" onMouseClicked="#iptalEt" prefHeight="40.0" prefWidth="103.0" text="İptal" visible="false" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="534.0" />
             <Label fx:id="motherLabel" layoutX="167.0" layoutY="310.0" prefHeight="27.0" prefWidth="136.0" text="Anne" />
             <Label fx:id="fatherLabel" layoutX="167.0" layoutY="357.0" prefHeight="27.0" prefWidth="136.0" text="Baba" />
+            <ChoiceBox fx:id="parentChoiceBox" layoutX="161.0" layoutY="323.0" prefHeight="53.0" prefWidth="196.0" visible="false" />
+            <Label fx:id="changeparentLabel" layoutX="17.0" layoutY="335.0" text="Ebeveyni Değiştir" visible="false" />
          </children>
       </AnchorPane>
-      <ImageView fitHeight="45.0" fitWidth="57.0" layoutX="34.0" layoutY="33.0" onMouseClicked="#backtomainpage" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="45.0" fitWidth="57.0" layoutX="34.0" layoutY="33.0" onMouseClicked="#backtologinscreen" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@icons/previous.png" />
          </image>
       </ImageView>
       <Button layoutX="514.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#backtomainpage" stylesheets="@css/style.css" text="Soy Ağacını Çiz" />
+      <Button layoutX="391.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#addPersontoTree" prefHeight="34.0" prefWidth="101.0" stylesheets="@css/style.css" text="Kişi Ekle" />
    </children>
 </AnchorPane>

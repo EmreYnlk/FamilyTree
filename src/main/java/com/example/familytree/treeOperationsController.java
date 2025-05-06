@@ -27,7 +27,8 @@ public class treeOperationsController implements Initializable {
     @FXML
     private TreeView<human> treeViewfamilytree;
     @FXML
-    private Label Upper_label_1, Upper_label_2, left_bottom_label1, partnerLabel, fatherLabel, motherLabel;
+    private Label fathertextLabel,mothertextLabel,Upper_label_1, Upper_label_2, left_bottom_label1, partnerLabel, fatherLabel, motherLabel,changeparentLabel,
+            esLabel_1,cocuklarLabel_1,torunlarLabel_1;
     @FXML
     private AnchorPane rightAnchor;
     @FXML
@@ -37,17 +38,20 @@ public class treeOperationsController implements Initializable {
     @FXML
     private RadioButton femaleRadioButton, maleRadioButton;
     @FXML
-    private TextField nameLabel, surnameLabel;
+    private TextField nameTextfield, surnameTextfield;
     @FXML
     private ListView<human> grandkidsListView, kidsListview;
     @FXML
-    private Button saveChangesButton, deletePersonButton, iptalBtn, soyAgaciCiz;
+    private Button saveChangesButton, deletePersonButton, iptalBtn, soyAgaciCiz,duzenleButton;
     @FXML
     private ImageView partnerImage;
+    @FXML
+    private ChoiceBox<human> parentChoiceBox;
     private static human selectedperson;
-    //   saveChanges()  yazılmadı
-    //   bringinformation()  tam olarak tamamlanmadı anne ve baba bilgisi gerekiyor-- bunu yaparken .parent değiştirilebilir olacak  .parent.partner değiştirilemez olacak.
-    //   soy ağacına yeni kişi eklenemiyor.     ve kişi silinemiyor
+
+    //   soy ağacına yeni kişi eklenemiyor.
+    //   soy ağacından silinen kişiler json dan da silinmeli. veya kullanıcı kaydet dediği zaman mevcut soyağacının bilgilerini yeniden yazmalı.
+    //   yeni oluşturulan ağaçtaki hata veren butonlar ->  root olmadan kişi ekle          eşli/eşsiz çiz
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -55,7 +59,10 @@ public class treeOperationsController implements Initializable {
     }
 
     public void setupTree() {
-
+        saveChangesButton.setVisible(false);
+        deletePersonButton.setVisible(false);
+        iptalBtn.setVisible(false);
+        setEditable(false);
         rightAnchor.setVisible(false);
         human familytreeRoot = FamilyTree.getRoot(mainScreenController.getCurrentFamilyName());
         treeViewfamilytree.setStyle("-fx-font-size: 18px;");
@@ -127,6 +134,10 @@ public class treeOperationsController implements Initializable {
 
     @FXML
     public void bringinformation() {
+        partnerImage.setVisible(false);
+        saveChangesButton.setVisible(false);
+        deletePersonButton.setVisible(false);
+        iptalBtn.setVisible(false);
         setEditable(false);
         TreeItem<human> selectedItem = treeViewfamilytree.getSelectionModel().getSelectedItem();
         if (selectedItem != null && selectedItem.getValue() != null) {
@@ -136,18 +147,20 @@ public class treeOperationsController implements Initializable {
             Upper_label_1.setText("Kişi Bilgileri");
             rightAnchor.setVisible(true);
             left_bottom_label1.setText(selectedperson.getFullNameWithoutPartner() + " Detayları");
-            nameLabel.setText(selectedperson.name);
-            surnameLabel.setText(selectedperson.surname);
+            nameTextfield.setText(selectedperson.name);
+            surnameTextfield.setText(selectedperson.surname);
             if (selectedperson.cinsiyet == 'E') {
                 maleRadioButton.setSelected(true);
             } else {
                 femaleRadioButton.setSelected(true);
             }
+
             if (selectedperson.partner == null) {
                 partnerLabel.setText("Evli Değil");
             } else {
                 partnerLabel.setText(selectedperson.partner.getFullNameWithoutPartner());
             }
+
 
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
             LocalDate date = LocalDate.parse(selectedperson.bornyear, formatter);
@@ -176,7 +189,47 @@ public class treeOperationsController implements Initializable {
 
 
             partnerInfoScreenController.setCurrentHumanBeing(selectedperson);
+
+            parentChoiceBox.getItems().clear();
+
+
+            recursiveFillParentCB(FamilyTree.getRoot(mainScreenController.getCurrentFamilyName()),1);
+
         }
+    }
+
+    private void recursiveFillParentCB(human temphuman,int temp){
+        if (temp==1){
+            if(temphuman!=selectedperson && !isFamilywith(selectedperson,temphuman)){
+                parentChoiceBox.getItems().add(temphuman);
+            }
+            if (temphuman==selectedperson.parent){
+                parentChoiceBox.getSelectionModel().select(temphuman);
+            }
+
+            for (human child : temphuman.childlist){
+                recursiveFillParentCB(child,1);
+            }
+
+        } else {
+            parentChoiceBox.getItems().add(temphuman);
+            for (human child : temphuman.childlist){
+                recursiveFillParentCB(child,2);
+            }
+
+        }
+
+
+
+
+    }
+
+    private boolean isFamilywith(human root, human target) {
+        for (human child : root.childlist) {
+            if (child == target) return true;
+            if (isFamilywith(child, target)) return true;
+        }
+        return false;
     }
 
     @FXML
@@ -187,34 +240,246 @@ public class treeOperationsController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+    @FXML
+    private void backtologinscreen() throws IOException{
+        Stage stage = (Stage) treeViewfamilytree.getScene().getWindow();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("loginScreen.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setScene(scene);
+        stage.show();
+
+    }
 
     private void setEditable(boolean bool) {
-        nameLabel.setEditable(bool);
-        surnameLabel.setEditable(bool);
+        nameTextfield.setEditable(bool);
+        surnameTextfield.setEditable(bool);
         femaleRadioButton.setMouseTransparent(!bool);
         maleRadioButton.setMouseTransparent(!bool);
-
 
         birthDatePicker.setMouseTransparent(!bool);
         birthDatePicker.setFocusTraversable(bool);
         partnerImage.setVisible(bool);
+
+        parentChoiceBox.setVisible(bool);
+        parentChoiceBox.setMouseTransparent(!bool);
+        changeparentLabel.setVisible(bool);
+
+        mothertextLabel.setVisible(!bool);
+        fathertextLabel.setVisible(!bool);
+        motherLabel.setVisible(!bool);
+        fatherLabel.setVisible(!bool);
+    }
+    private void givealert(){
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("İmkansız");
+        alert.setHeaderText(null);
+        alert.setContentText("Eksik ya da Yanlış girişler yaptınız.Lütfen geçerli ifadeler giriniz");
+        alert.showAndWait();
     }
 
     @FXML
-    private void saveChanges() {   // değişiklikleri kaydetme butonu ----- eklenecek eklenmedi---  selectedperson  kullanarak yazılacak.
+    private void saveChanges() {
+        if (nameTextfield.getText()==null&&nameTextfield.getText()==""){
+            givealert();
+            return;
+        }
+
+        if (surnameTextfield.getText()==null || surnameTextfield.getText()==""){
+            givealert();
+            return;
+        }
+        selectedperson.name=nameTextfield.getText();
+        selectedperson.surname=surnameTextfield.getText();
+
+        if (maleRadioButton.isSelected()){
+            selectedperson.cinsiyet='E';
+        }else if (femaleRadioButton.isSelected()){
+            selectedperson.cinsiyet='K';
+        }else {
+            givealert();
+            return;
+        }
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        if (birthDatePicker.getValue()==null){
+            givealert();
+            return;
+        }
+        LocalDate selectedDate = birthDatePicker.getValue();
+        String bornyear = selectedDate.format(formatter);
+        selectedperson.bornyear=bornyear;
+
+
+
+
+        if (parentChoiceBox.getValue() != selectedperson.parent){
+
+            selectedperson.parent.childlist.remove(selectedperson);
+            selectedperson.parent = parentChoiceBox.getValue();
+            parentChoiceBox.getValue().childlist.add(selectedperson);
+        }
+
+
+
+
+
+
+
+
+        iptalBtn.setVisible(false);
         saveChangesButton.setVisible(false);
         deletePersonButton.setVisible(false);
+
         setEditable(false);
+        setupTree();
 
     }
 
     @FXML
-    private void changeInformations() {
+    private void editButtonAction() {
         saveChangesButton.setVisible(true);
         deletePersonButton.setVisible(true);
         iptalBtn.setVisible(true);
         setEditable(true);
     }
+
+
+    @FXML
+    private void addPersontoTree(){
+        rightAnchor.setVisible(true);
+        parentChoiceBox.getItems().clear();
+        nameTextfield.setText("İsim Giriniz");
+        nameTextfield.setEditable(true);
+        surnameTextfield.setText("Soyisim Giriniz");
+        surnameTextfield.setEditable(true);
+        left_bottom_label1.setText("Yeni Kişi Bilgilerini Giriniz");
+        birthDatePicker.setEditable(true);
+        birthDatePicker.setMouseTransparent(false);
+        maleRadioButton.setSelected(false);
+        maleRadioButton.setMouseTransparent(false);
+        femaleRadioButton.setMouseTransparent(false);
+        femaleRadioButton.setSelected(false);
+
+        if (FamilyTree.getRoot(mainScreenController.getCurrentFamilyName())!=null){
+            recursiveFillParentCB(FamilyTree.getRoot(mainScreenController.getCurrentFamilyName()),2);
+            parentChoiceBox.setValue(FamilyTree.getRoot(mainScreenController.getCurrentFamilyName()));
+            parentChoiceBox.setVisible(true);
+            parentChoiceBox.setMouseTransparent(false);
+        }else {
+            parentChoiceBox.setVisible(false);
+            parentChoiceBox.setMouseTransparent(true);
+            changeparentLabel.setText("Bu kişi root olarak eklenecek. Bu kısımda değişiklik yapılamaz");
+        }
+        changeparentLabel.setVisible(true);
+
+        kidsListview.setVisible(false);
+        grandkidsListView.setVisible(false);
+
+        partnerLabel.setVisible(false);
+
+        mothertextLabel.setVisible(false);
+        fathertextLabel.setVisible(false);
+        motherLabel.setVisible(false);
+        fatherLabel.setVisible(false);
+
+        esLabel_1.setVisible(false);
+        cocuklarLabel_1.setVisible(false);
+        torunlarLabel_1.setVisible(false);
+
+
+        treeViewfamilytree.setMouseTransparent(true);
+        duzenleButton.setText("Kişiyi Ekle");
+        duzenleButton.setOnMouseClicked(event -> {
+            actionForAddingPersonToTree();
+        });
+        iptalBtn.setVisible(true);
+        iptalBtn.setOnMouseClicked(event -> {
+            actionForCancelingAdding();
+        });
+
+
+
+    }
+
+
+    @FXML
+    private void actionForAddingPersonToTree(){
+            if (nameTextfield.getText()==null&&nameTextfield.getText()==""){
+                givealert();
+                return;
+            }
+
+            if (surnameTextfield.getText()==null || surnameTextfield.getText()==""){
+                givealert();
+                return;
+            }
+
+            String name = nameTextfield.getText();
+            String surname = surnameTextfield.getText();
+            char cinsiyet;
+            if (maleRadioButton.isSelected()){
+                cinsiyet='E';
+            }else if (femaleRadioButton.isSelected()){
+                cinsiyet='K';
+            }else {
+                givealert();
+                return;
+            }
+
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+            if (birthDatePicker.getValue()==null){
+                givealert();
+                return;
+            }
+            LocalDate selectedDate = birthDatePicker.getValue();
+            String bornyear = selectedDate.format(formatter);
+
+            human human = new human(name,surname,bornyear,cinsiyet);
+
+        if (FamilyTree.getRoot(mainScreenController.getCurrentFamilyName())==null){
+            FamilyTree.setRoot(mainScreenController.getCurrentFamilyName(),human);
+        }else {
+
+            if(parentChoiceBox.getValue()!=null){
+               human.parent = parentChoiceBox.getValue();
+            }else {
+                givealert();
+                return;
+            }
+
+        }
+
+
+
+        easyAccess();
+    }
+
+    @FXML
+    private void actionForCancelingAdding(){
+        easyAccess();
+    }
+    private void easyAccess(){
+        changeparentLabel.setText("Ebeveyni Değiştir");
+        duzenleButton.setText("Düzenle");
+        duzenleButton.setOnMouseClicked(event -> {
+            editButtonAction();
+        });
+        treeViewfamilytree.setMouseTransparent(false);
+        iptalBtn.setVisible(false);
+        iptalBtn.setOnMouseClicked(event -> {
+            iptalEt();
+        });
+        kidsListview.setVisible(true);
+        grandkidsListView.setVisible(true);
+        esLabel_1.setVisible(true);
+        cocuklarLabel_1.setVisible(true);
+        torunlarLabel_1.setVisible(true);
+        partnerLabel.setVisible(true);
+
+
+        setupTree();
+    }
+
 
     @FXML
     private void iptalEt() {
@@ -230,15 +495,32 @@ public class treeOperationsController implements Initializable {
         if (!isDeleteConfirmation()){
             return;
         }
-        //buraya silinme komutları girilecek;
+        if (selectedperson==FamilyTree.getRoot(mainScreenController.getCurrentFamilyName())){
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("İmkansız");
+            alert.setHeaderText(null);
+            alert.setContentText("Soyağacındaki ilk kişiyi silemezsiniz");
+            alert.showAndWait();
+            return;
+        }
+
+        if (selectedperson.partner!=null){
+            selectedperson.partner=null;
+        }
+        recursiveDeletePerson(selectedperson);
+        if (selectedperson.parent!=null){
+            selectedperson.parent.childlist.remove(selectedperson);
+        }
 
 
-
-
-
-
-        System.out.println("Silindi...........");
+        selectedperson = null;
         setupTree();    // kişi silindikten sonra ağacı tekrar yükle
+    }
+    private void recursiveDeletePerson(human humans){
+        for (human child : humans.childlist) {
+            recursiveDeletePerson(child);
+        }
+        humans.childlist.clear();
     }
 
     @FXML

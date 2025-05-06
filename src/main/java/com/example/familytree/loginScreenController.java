@@ -53,7 +53,7 @@ public class loginScreenController {
 
     }
     @FXML
-    private void createFamilyTree(){                                   // burada bir soyadı alınıp o soyadına ait bir soyağacı sınıfından nesne oluşturulacak ve mainScreen e yönlendirilecek
+    private void createFamilyTree() throws IOException{                                   // burada bir soyadı alınıp o soyadına ait bir soyağacı sınıfından nesne oluşturulacak ve mainScreen e yönlendirilecek
 
         String familyNameString = familyName.getText();
         if(isFamilyNameinList(familyNameString)){
@@ -70,9 +70,23 @@ public class loginScreenController {
             alert.showAndWait();
         }
         else {
-            System.out.println("Yapılmadı daha sonra gel . girilen: " +familyNameString);
+            FamilyTree newtree = new FamilyTree(familyNameString);
 
-            // mainScreenController.setCurrentFamilyName(familyNameString);
+            Stage stage = (Stage) familyName.getScene().getWindow();
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("treeOperations.fxml"));
+            Scene scene = new Scene(fxmlLoader.load());
+            mainScreenController.setCurrentFamilyName(familyNameString);
+            treeOperationsController controller = fxmlLoader.getController();
+            controller.setupTree();
+
+            stage.setX(150);
+            stage.setY(150);
+            stage.setScene(scene);
+            stage.show();
+
+
+            mainScreenController.setCurrentFamilyName(familyNameString);
+            newtree.root = null;
         }
     }
 }

@@ -26,10 +26,7 @@ public class FamilyTree {
         this.root = root;}
 //------------------------------constructors-------------------------------//
 
-    //bunlar burda mı duracak yoksa controller da mı emin değilim
-    void findleef(){}               //yaprakları bul
-    void findlineage(){}            //üst soy
-    void findsubtree(){}           // alt soy
+
 
 
     //******************************(Getter and Setter)******************************//
@@ -40,6 +37,14 @@ public class FamilyTree {
             }
         }
         return null;
+    }
+    public static void setRoot(String familyname,human human1){
+        for (FamilyTree tree : allfamilytree) {
+            if (tree.familytreename.equals(familyname)) {
+                tree.root=human1;
+
+            }
+        }
     }
     //******************************(Getter and Setter)******************************//
 }

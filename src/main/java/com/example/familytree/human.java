@@ -7,8 +7,8 @@ public class human {
     String surname;
     char cinsiyet;
     String bornyear;                          //  GG-AA-YYYY şeklinde tutulacak
-    human parent;
     human partner;
+    human parent;
     LinkedList<human> childlist ;                 // kişinin kendi çocuklarını tutcak
 
     public human(String name, String surname, String bornyear,char cinsiyet) {
@@ -39,6 +39,10 @@ public class human {
 
         return name + " " + surname;
 
+    }
+    @Override
+    public String toString(){
+        return name + " " + surname;
     }
     public String getName() {
         return name;
