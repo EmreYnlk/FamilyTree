@@ -64,9 +64,19 @@ public class mainScreenController {
         }
 
     }
-
+    private void givealert(){
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("Çizilemedi");
+        alert.setHeaderText(null);
+        alert.setContentText("Root olmadan çizim yapılamaz");
+        alert.showAndWait();
+    }
     @FXML
     public void esliciz(){
+        if (getRoot(currentFamilyName)==null){
+            givealert();
+            return;
+        }
         Pane canvas = new Pane();
         human root = getRoot(currentFamilyName);
 
@@ -78,6 +88,11 @@ public class mainScreenController {
     }
     @FXML
     public void essizciz(){
+        if (getRoot(currentFamilyName)==null){
+            givealert();
+            return;
+        }
+
         Pane canvas = new Pane();
         human root = getRoot(currentFamilyName);
 
