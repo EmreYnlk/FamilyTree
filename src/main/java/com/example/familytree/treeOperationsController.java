@@ -27,7 +27,7 @@ public class treeOperationsController implements Initializable {
     @FXML
     private TreeView<human> treeViewfamilytree;
     @FXML
-    private Label fathertextLabel,mothertextLabel,Upper_label_1, Upper_label_2, left_bottom_label1, partnerLabel, fatherLabel, motherLabel,changeparentLabel,
+    private Label fathertextLabel,mothertextLabel,Upper_label_1, soyIsmeGoreKisi, left_bottom_label1, partnerLabel, fatherLabel, motherLabel,changeparentLabel,
             esLabel_1,cocuklarLabel_1,torunlarLabel_1;
     @FXML
     private AnchorPane rightAnchor;
@@ -59,6 +59,7 @@ public class treeOperationsController implements Initializable {
     }
 
     public void setupTree() {
+        soyIsmeGoreKisi.setText(mainScreenController.getCurrentFamilyName()+" Ailesi");
         saveChangesButton.setVisible(false);
         deletePersonButton.setVisible(false);
         iptalBtn.setVisible(false);
@@ -434,14 +435,24 @@ public class treeOperationsController implements Initializable {
             LocalDate selectedDate = birthDatePicker.getValue();
             String bornyear = selectedDate.format(formatter);
 
-            human human = new human(name,surname,bornyear,cinsiyet);
+            human human12 = new human(name,surname,bornyear,cinsiyet);
 
         if (FamilyTree.getRoot(mainScreenController.getCurrentFamilyName())==null){
-            FamilyTree.setRoot(mainScreenController.getCurrentFamilyName(),human);
+            FamilyTree.setRoot(mainScreenController.getCurrentFamilyName(),human12);
+
         }else {
+            if (parentChoiceBox.getValue().partner==null){
+                Alert alert = new Alert(Alert.AlertType.WARNING);
+                alert.setTitle("Olamaz");
+                alert.setHeaderText(null);
+                alert.setContentText("Soyağacında bir kişiye çocuk eklemek istiyorsanız önce o kişiye eş eklemelisiniz.");
+                alert.showAndWait();
+                return;
+            }
 
             if(parentChoiceBox.getValue()!=null){
-               human.parent = parentChoiceBox.getValue();
+               human12.parent = parentChoiceBox.getValue();
+               parentChoiceBox.getValue().childlist.add(human12);
             }else {
                 givealert();
                 return;
