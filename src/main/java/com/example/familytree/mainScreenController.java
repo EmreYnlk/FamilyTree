@@ -150,6 +150,9 @@ public class mainScreenController {
             }else {
                 label.setTextFill(Color.DEEPPINK);
             }
+            if(person.partner != null){
+                label.setTextFill(Color.GREEN);
+            }
             pane.getChildren().add(label);
         }
 

@@ -1,6 +1,5 @@
 package com.example.familytree;
 
-import java.util.LinkedList;
 
 public class human {
     String name;
@@ -9,7 +8,7 @@ public class human {
     String bornyear;                          //  GG-AA-YYYY şeklinde tutulacak
     human partner;
     human parent;
-    LinkedList<human> childlist ;                 // kişinin kendi çocuklarını tutcak
+    MyLinkedList<human> childlist ;                 // kişinin kendi çocuklarını tutcak
 
     public human(String name, String surname, String bornyear,char cinsiyet) {
         this.name = name;
@@ -18,7 +17,7 @@ public class human {
         this.cinsiyet=cinsiyet;
         this.partner=null;
         this.parent=null;
-        this.childlist = new LinkedList<>();
+        this.childlist = new MyLinkedList<>();
     }
     public void addChild(human child){
         childlist.add(child);
@@ -68,7 +67,7 @@ public class human {
         return partner;
     }
 
-    public LinkedList<human> getChildlist() {
+    public MyLinkedList<human> getChildlist() {
         return childlist;
     }
 

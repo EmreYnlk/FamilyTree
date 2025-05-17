@@ -1,11 +1,10 @@
 package com.example.familytree;
 
-import java.util.LinkedList;
 
 public class FamilyTree {
     String familytreename;
     human root;
-    private static LinkedList<FamilyTree> allfamilytree = new LinkedList<>();
+    private static MyLinkedList<FamilyTree> allfamilytree = new MyLinkedList<>();
 
     public static boolean isFamilyNameinList(String familyname) {
         for (FamilyTree tree : allfamilytree) {
