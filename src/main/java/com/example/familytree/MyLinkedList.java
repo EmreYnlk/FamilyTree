@@ -7,10 +7,14 @@ public class MyLinkedList<T> implements Iterable<T>  {
     private Node<T> head;
     private int size;
 
+    public int getSize() {
+        return size;
+    }
     public MyLinkedList() {
         this.head = null;
         this.size = 0;
     }
+
 
     public void add(T data) {
         Node<T> newNode = new Node<>(data);
@@ -24,6 +28,19 @@ public class MyLinkedList<T> implements Iterable<T>  {
             current.next = newNode;
         }
         size++;
+    }
+
+    public T get(int index) {
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        }
+
+        Node<T> current = head;
+        for (int i = 0; i < index; i++) {
+            current = current.next;
+        }
+
+        return current.data;
     }
 
     public boolean remove(T data) {

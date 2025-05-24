@@ -49,9 +49,7 @@ public class treeOperationsController implements Initializable {
     private ChoiceBox<human> parentChoiceBox;
     private static human selectedperson;
 
-    //   soy ağacına yeni kişi eklenemiyor.
     //   soy ağacından silinen kişiler json dan da silinmeli. veya kullanıcı kaydet dediği zaman mevcut soyağacının bilgilerini yeniden yazmalı.
-    //   yeni oluşturulan ağaçtaki hata veren butonlar ->  root olmadan kişi ekle          eşli/eşsiz çiz
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -67,6 +65,7 @@ public class treeOperationsController implements Initializable {
         rightAnchor.setVisible(false);
         human familytreeRoot = FamilyTree.getRoot(mainScreenController.getCurrentFamilyName());
         treeViewfamilytree.setStyle("-fx-font-size: 18px;");
+
         if (familytreeRoot == null) {
             TreeItem<human> emptyItem = new TreeItem<>(null);
             treeViewfamilytree.setRoot(emptyItem);
@@ -248,7 +247,6 @@ public class treeOperationsController implements Initializable {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setScene(scene);
         stage.show();
-
     }
 
     private void setEditable(boolean bool) {
@@ -390,9 +388,11 @@ public class treeOperationsController implements Initializable {
 
         treeViewfamilytree.setMouseTransparent(true);
         duzenleButton.setText("Kişiyi Ekle");
+
         duzenleButton.setOnMouseClicked(event -> {
             actionForAddingPersonToTree();
         });
+
         iptalBtn.setVisible(true);
         iptalBtn.setOnMouseClicked(event -> {
             actionForCancelingAdding();
@@ -469,6 +469,7 @@ public class treeOperationsController implements Initializable {
     private void actionForCancelingAdding(){
         easyAccess();
     }
+
     private void easyAccess(){
         changeparentLabel.setText("Ebeveyni Değiştir");
         duzenleButton.setText("Düzenle");
@@ -519,6 +520,7 @@ public class treeOperationsController implements Initializable {
             selectedperson.partner=null;
         }
         recursiveDeletePerson(selectedperson);
+
         if (selectedperson.parent!=null){
             selectedperson.parent.childlist.remove(selectedperson);
         }
@@ -600,4 +602,3 @@ public class treeOperationsController implements Initializable {
 
 
 }
-

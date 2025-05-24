@@ -37,6 +37,7 @@ public class FamilyTree {
         }
         return null;
     }
+
     public static void setRoot(String familyname,human human1){
         for (FamilyTree tree : allfamilytree) {
             if (tree.familytreename.equals(familyname)) {

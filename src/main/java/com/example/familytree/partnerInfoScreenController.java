@@ -60,9 +60,9 @@ public class partnerInfoScreenController {
             gettingmessage("Uyarı","Partner Soyadları Farklı olamaz");
             return;
         }else {
-            // burada o arkadaş için bir partner oluşturacağız. burası eksik
             String partnername= partnernameTextfield.getText();
             String partnersurname = partnersurnameTextfield.getText();
+
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
             LocalDate selectedDate = partnerbdateDatepicker.getValue();
             String partnerbornyear = selectedDate.format(formatter);
@@ -74,6 +74,7 @@ public class partnerInfoScreenController {
             }
 
             human partnermaking = new human(partnername,partnersurname,partnerbornyear,maleorfemale);
+
             partnermaking.partner = currentHumanBeing;
             currentHumanBeing.partner = partnermaking;
 

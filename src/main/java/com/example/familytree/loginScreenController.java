@@ -25,6 +25,7 @@ public class loginScreenController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("treeOperations.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             mainScreenController.setCurrentFamilyName(familyNameString);
+
             treeOperationsController controller = fxmlLoader.getController();
             controller.setupTree();
 
@@ -76,6 +77,7 @@ public class loginScreenController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("treeOperations.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
             mainScreenController.setCurrentFamilyName(familyNameString);
+
             treeOperationsController controller = fxmlLoader.getController();
             controller.setupTree();
 
