@@ -8,7 +8,9 @@ public class FamilyTree {
     human root;
     private static MyLinkedList<FamilyTree> allfamilytree = new MyLinkedList<>();
 
-
+    public static void clearAllTrees() {
+        allfamilytree.clear();
+    }
 
     public static boolean isFamilyNameinList(String familyname) {
         File folder = new File("src/main/java/Jsonlar/");

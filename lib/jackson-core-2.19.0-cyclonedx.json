@@ -1,0 +1,160 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:d54d5732-cae5-3c3f-81fc-15a4ef68d2a9",
+  "version" : 1,
+  "metadata" : {
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "type" : "library",
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.9.1",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "9c7a565cf28cce58557d0c621c5ea4b1"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "be882d5a22050bfa9d19090b1420c188617d0e1c"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "698e0f37184a5b28c245c4065fd036dfce253b52f82fbb7113d81d36326cc249"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "c0f0b11026858166f872a2eb54719492e5cecaa0bc9cd6b30b3ecb4a174eed220f4a1b5829d18d6734128e778d3cb3db7ffed177c92866133129cb29081814a0"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "d80964707dfe5caca8c70521d5066f57589304c0a657e6fbc7c0614ea0fc7b3b3dbe7778361eee0f54ba111e9cb0ffcb"
+            }
+          ]
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0?type=jar",
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.19.0",
+      "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        }
+      ]
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      },
+      {
+        "name" : "cdx:reproducible",
+        "value" : "enabled"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/ch.randelshofer/fastdoubleparser@1.0.90?type=jar",
+      "group" : "ch.randelshofer",
+      "name" : "fastdoubleparser",
+      "version" : "1.0.90",
+      "description" : "A Java port of Daniel Lemire's fast_float project.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2b96b9c90de4eebb62a6f7e1f36af9b7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6f4e9f6f660511a5b21c612919ec7daa3a3b1235"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e06f1063e1df20b187ef5d06c56c0a3feed079dfaf85a01a6948f3dcb602472f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f78cbba2ba5e1c2b56b829c9b66431d129f063ecaf5edb2b67ff7fb206740227d9e84d99806786d3992f7eab309d6edbd105c65a038a401e8188aa3bd688bd9b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8ca5e19e895f4e0c34d047c9f8b3c35a62f2e9772505f0e3a8382edf1daee29ab73685509eec43bf5068f27f7fd21698"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/ch.randelshofer/fastdoubleparser@1.0.90?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/wrandelshofer/FastDoubleParser"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/wrandelshofer/FastDoubleParser/tree/master"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/ch.randelshofer/fastdoubleparser@1.0.90?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/ch.randelshofer/fastdoubleparser@1.0.90?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}
