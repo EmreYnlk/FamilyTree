@@ -54,7 +54,6 @@ public class treeOperationsController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        setupTree();
     }
 
     public void setupTree() {

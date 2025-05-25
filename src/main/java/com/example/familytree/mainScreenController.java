@@ -161,6 +161,7 @@ public class mainScreenController {
 
     //******************************(Getter and Setter)******************************//
     public static String getCurrentFamilyName() {
+
         return currentFamilyName;
     }
 
