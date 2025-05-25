@@ -9,7 +9,7 @@ import java.io.IOException;
 public class main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        main_treerandomizer.begining.makecomplexfamilytree(8,3,"hazir2");
+        main_treerandomizer.begining.makecomplexfamilytree(8,3,"random");
 
 
 

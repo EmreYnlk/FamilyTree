@@ -1,2606 +1,1182 @@
 {
   "familytreename" : "hazir2",
-  "root" : {
-    "id" : "4356",
-    "name" : "Mert",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4355"
-    },
-    "parentId" : null,
-    "childrenIds" : [ "4358", "4488" ]
-  },
   "allMembers" : [ {
-    "id" : "4356",
-    "name" : "Mert",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4355"
-    },
-    "parentId" : null,
-    "childrenIds" : [ "4358", "4488" ]
-  }, {
-    "id" : "4358",
-    "name" : "Ahmet",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4357"
-    },
-    "parentId" : "4356",
-    "childrenIds" : [ "4360" ]
-  }, {
-    "id" : "4488",
-    "name" : "Onur",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Derya",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4487"
-    },
-    "parentId" : "4356",
-    "childrenIds" : [ "4490", "4492", "4534" ]
-  }, {
-    "id" : "4355",
-    "name" : "Ayşe",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4360",
-    "name" : "Elif",
-    "surname" : "Demir",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ali",
-      "surname" : "Demir",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4359"
-    },
-    "parentId" : "4358",
-    "childrenIds" : [ "4362", "4486" ]
-  }, {
-    "id" : "4357",
-    "name" : "Ayşe",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4490",
-    "name" : "Can",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4488",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4492",
-    "name" : "Arda",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4491"
-    },
-    "parentId" : "4488",
-    "childrenIds" : [ "4494", "4500", "4502" ]
-  }, {
-    "id" : "4534",
-    "name" : "Elif",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ege",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4533"
-    },
-    "parentId" : "4488",
-    "childrenIds" : [ "4536" ]
-  }, {
-    "id" : "4487",
-    "name" : "Derya",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4362",
-    "name" : "Derya",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Kerem",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4361"
-    },
-    "parentId" : "4360",
-    "childrenIds" : [ "4364", "4424", "4484" ]
-  }, {
-    "id" : "4486",
-    "name" : "Elif",
-    "surname" : "Demir",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4360",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4359",
-    "name" : "Ali",
-    "surname" : "Demir",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4494",
+    "personalid" : "4762",
     "name" : "Cem",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Elif",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4493"
-    },
-    "parentId" : "4492",
-    "childrenIds" : [ "4496", "4498" ]
-  }, {
-    "id" : "4500",
-    "name" : "Melis",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4492",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4502",
-    "name" : "Aslı",
-    "surname" : "Türkmen",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ali",
-      "surname" : "Türkmen",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4501"
-    },
-    "parentId" : "4492",
-    "childrenIds" : [ "4504" ]
-  }, {
-    "id" : "4491",
-    "name" : "Ayşe",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4536",
-    "name" : "Arda",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Fatma",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4535"
-    },
-    "parentId" : "4534",
-    "childrenIds" : [ "4538", "4540", "4564" ]
-  }, {
-    "id" : "4533",
-    "name" : "Ege",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4364",
-    "name" : "Burak",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Cansu",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4363"
-    },
-    "parentId" : "4362",
-    "childrenIds" : [ "4366", "4412" ]
-  }, {
-    "id" : "4424",
-    "name" : "Fatma",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ege",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4423"
-    },
-    "parentId" : "4362",
-    "childrenIds" : [ "4426", "4446", "4468" ]
-  }, {
-    "id" : "4484",
-    "name" : "Selin",
-    "surname" : "Şahin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Can",
-      "surname" : "Şahin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4483"
-    },
-    "parentId" : "4362",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4361",
-    "name" : "Kerem",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4496",
-    "name" : "Aslı",
-    "surname" : "Türkmen",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mehmet",
-      "surname" : "Türkmen",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4495"
-    },
-    "parentId" : "4494",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4498",
-    "name" : "Ege",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4494",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4493",
-    "name" : "Elif",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4504",
-    "name" : "Mehmet",
-    "surname" : "Türkmen",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Derya",
-      "surname" : "Türkmen",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4503"
-    },
-    "parentId" : "4502",
-    "childrenIds" : [ "4506" ]
-  }, {
-    "id" : "4501",
-    "name" : "Ali",
-    "surname" : "Türkmen",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4538",
-    "name" : "Hülya",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4536",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4540",
-    "name" : "Hülya",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Cem",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4539"
-    },
-    "parentId" : "4536",
-    "childrenIds" : [ "4542" ]
-  }, {
-    "id" : "4564",
-    "name" : "Ali",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Derya",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4563"
-    },
-    "parentId" : "4536",
-    "childrenIds" : [ "4566", "4600", "4624" ]
-  }, {
-    "id" : "4535",
-    "name" : "Fatma",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4366",
-    "name" : "Kerem",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Cansu",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4365"
-    },
-    "parentId" : "4364",
-    "childrenIds" : [ "4368", "4394" ]
-  }, {
-    "id" : "4412",
-    "name" : "Ezgi",
-    "surname" : "Şeker",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Baran",
-      "surname" : "Şeker",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4411"
-    },
-    "parentId" : "4364",
-    "childrenIds" : [ "4414" ]
-  }, {
-    "id" : "4363",
-    "name" : "Cansu",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4426",
-    "name" : "Kerem",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Gizem",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4425"
-    },
-    "parentId" : "4424",
-    "childrenIds" : [ "4428", "4434", "4444" ]
-  }, {
-    "id" : "4446",
-    "name" : "Hülya",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Kerem",
-      "surname" : "Bozkurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4445"
-    },
-    "parentId" : "4424",
-    "childrenIds" : [ "4448", "4462", "4466" ]
-  }, {
-    "id" : "4468",
-    "name" : "Baran",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Melis",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4467"
-    },
-    "parentId" : "4424",
-    "childrenIds" : [ "4470", "4482" ]
-  }, {
-    "id" : "4423",
-    "name" : "Ege",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4483",
-    "name" : "Can",
-    "surname" : "Şahin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4495",
-    "name" : "Mehmet",
-    "surname" : "Türkmen",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4506",
-    "name" : "Fatma",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ahmet",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4505"
-    },
-    "parentId" : "4504",
-    "childrenIds" : [ "4508", "4510", "4528" ]
-  }, {
-    "id" : "4503",
-    "name" : "Derya",
-    "surname" : "Türkmen",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4542",
-    "name" : "Mucip",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Derya",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4541"
-    },
-    "parentId" : "4540",
-    "childrenIds" : [ "4544", "4554" ]
-  }, {
-    "id" : "4539",
-    "name" : "Cem",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4566",
-    "name" : "Emre",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Fatma",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4565"
-    },
-    "parentId" : "4564",
-    "childrenIds" : [ "4568", "4576", "4592" ]
-  }, {
-    "id" : "4600",
-    "name" : "Arda",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "İpek",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4599"
-    },
-    "parentId" : "4564",
-    "childrenIds" : [ "4602", "4612", "4616" ]
-  }, {
-    "id" : "4624",
-    "name" : "Emre",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4564",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4563",
-    "name" : "Derya",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4368",
-    "name" : "Can",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4367"
-    },
-    "parentId" : "4366",
-    "childrenIds" : [ "4370", "4378", "4386" ]
-  }, {
-    "id" : "4394",
-    "name" : "Gizem",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Onur",
-      "surname" : "Bozkurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4393"
-    },
-    "parentId" : "4366",
-    "childrenIds" : [ "4396", "4404" ]
-  }, {
-    "id" : "4365",
-    "name" : "Cansu",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4414",
-    "name" : "Arda",
-    "surname" : "Şeker",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Şeker",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4413"
-    },
-    "parentId" : "4412",
-    "childrenIds" : [ "4416", "4418", "4420" ]
-  }, {
-    "id" : "4411",
-    "name" : "Baran",
-    "surname" : "Şeker",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4428",
-    "name" : "Burak",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Hülya",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4427"
-    },
-    "parentId" : "4426",
-    "childrenIds" : [ "4430" ]
-  }, {
-    "id" : "4434",
-    "name" : "İpek",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Arda",
-      "surname" : "Acar",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4433"
-    },
-    "parentId" : "4426",
-    "childrenIds" : [ "4436", "4438", "4440" ]
-  }, {
-    "id" : "4444",
-    "name" : "Ayşe",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mehmet",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4443"
-    },
-    "parentId" : "4426",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4425",
-    "name" : "Gizem",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4448",
-    "name" : "Hülya",
     "surname" : "Arslan",
-    "cinsiyet" : "K",
+    "cinsiyet" : "E",
     "bornyear" : "01-01-1800",
     "partner" : {
-      "name" : "Mucip",
+      "name" : "Sena",
       "surname" : "Arslan",
       "bornyear" : "01-01-1800",
-      "personalid" : "4447"
+      "personalid" : "4761"
     },
-    "parentId" : "4446",
-    "childrenIds" : [ "4450", "4452", "4460" ]
-  }, {
-    "id" : "4462",
-    "name" : "Sibel",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ege",
-      "surname" : "Yalçın",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4461"
-    },
-    "parentId" : "4446",
-    "childrenIds" : [ "4464" ]
-  }, {
-    "id" : "4466",
-    "name" : "Melis",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4446",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4445",
-    "name" : "Kerem",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4470",
-    "name" : "Ege",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
+    "children" : [ {
+      "personalid" : "4764",
       "name" : "Aslı",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4469"
-    },
-    "parentId" : "4468",
-    "childrenIds" : [ "4472", "4476" ]
-  }, {
-    "id" : "4482",
-    "name" : "Ezgi",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Onur",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4481"
-    },
-    "parentId" : "4468",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4467",
-    "name" : "Melis",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4508",
-    "name" : "Mehmet",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Sena",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4507"
-    },
-    "parentId" : "4506",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4510",
-    "name" : "Can",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Zeynep",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4509"
-    },
-    "parentId" : "4506",
-    "childrenIds" : [ "4512", "4520" ]
-  }, {
-    "id" : "4528",
-    "name" : "Melis",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mert",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4527"
-    },
-    "parentId" : "4506",
-    "childrenIds" : [ "4530", "4532" ]
-  }, {
-    "id" : "4505",
-    "name" : "Ahmet",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4544",
-    "name" : "Cansu",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ege",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4543"
-    },
-    "parentId" : "4542",
-    "childrenIds" : [ "4546", "4548", "4552" ]
-  }, {
-    "id" : "4554",
-    "name" : "Onur",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Selin",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4553"
-    },
-    "parentId" : "4542",
-    "childrenIds" : [ "4556" ]
-  }, {
-    "id" : "4541",
-    "name" : "Derya",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4568",
-    "name" : "Sena",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Kerem",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4567"
-    },
-    "parentId" : "4566",
-    "childrenIds" : [ "4570", "4572", "4574" ]
-  }, {
-    "id" : "4576",
-    "name" : "Mehmet",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Elif",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4575"
-    },
-    "parentId" : "4566",
-    "childrenIds" : [ "4578", "4584", "4588" ]
-  }, {
-    "id" : "4592",
-    "name" : "Ezgi",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Cem",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4591"
-    },
-    "parentId" : "4566",
-    "childrenIds" : [ "4594" ]
-  }, {
-    "id" : "4565",
-    "name" : "Fatma",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4602",
-    "name" : "Ayşe",
-    "surname" : "Çelik",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mehmet",
-      "surname" : "Çelik",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4601"
-    },
-    "parentId" : "4600",
-    "childrenIds" : [ "4604" ]
-  }, {
-    "id" : "4612",
-    "name" : "Can",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Derya",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4611"
-    },
-    "parentId" : "4600",
-    "childrenIds" : [ "4614" ]
-  }, {
-    "id" : "4616",
-    "name" : "Melis",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Burak",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4615"
-    },
-    "parentId" : "4600",
-    "childrenIds" : [ "4618" ]
-  }, {
-    "id" : "4599",
-    "name" : "İpek",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4370",
-    "name" : "Emre",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Cansu",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4369"
-    },
-    "parentId" : "4368",
-    "childrenIds" : [ "4372", "4374", "4376" ]
-  }, {
-    "id" : "4378",
-    "name" : "Aslı",
-    "surname" : "Koç",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mucip",
-      "surname" : "Koç",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4377"
-    },
-    "parentId" : "4368",
-    "childrenIds" : [ "4380", "4382", "4384" ]
-  }, {
-    "id" : "4386",
-    "name" : "Cansu",
-    "surname" : "Kurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mucip",
-      "surname" : "Kurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4385"
-    },
-    "parentId" : "4368",
-    "childrenIds" : [ "4388", "4390", "4392" ]
-  }, {
-    "id" : "4367",
-    "name" : "Ayşe",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4396",
-    "name" : "Mucip",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Melis",
-      "surname" : "Bozkurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4395"
-    },
-    "parentId" : "4394",
-    "childrenIds" : [ "4398", "4400", "4402" ]
-  }, {
-    "id" : "4404",
-    "name" : "Fatma",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Kerem",
-      "surname" : "Acar",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4403"
-    },
-    "parentId" : "4394",
-    "childrenIds" : [ "4406", "4408", "4410" ]
-  }, {
-    "id" : "4393",
-    "name" : "Onur",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4416",
-    "name" : "Arda",
-    "surname" : "Şeker",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4414",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4418",
-    "name" : "Cem",
-    "surname" : "Şeker",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4414",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4420",
-    "name" : "Ahmet",
-    "surname" : "Şeker",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Fatma",
-      "surname" : "Şeker",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4419"
-    },
-    "parentId" : "4414",
-    "childrenIds" : [ "4422" ]
-  }, {
-    "id" : "4413",
-    "name" : "Ayşe",
-    "surname" : "Şeker",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4430",
-    "name" : "Ayşe",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ahmet",
-      "surname" : "Acar",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4429"
-    },
-    "parentId" : "4428",
-    "childrenIds" : [ "4432" ]
-  }, {
-    "id" : "4427",
-    "name" : "Hülya",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4436",
-    "name" : "Ayşe",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4434",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4438",
-    "name" : "Elif",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ege",
-      "surname" : "Acar",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4437"
-    },
-    "parentId" : "4434",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4440",
-    "name" : "Melis",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ege",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4439"
-    },
-    "parentId" : "4434",
-    "childrenIds" : [ "4442" ]
-  }, {
-    "id" : "4433",
-    "name" : "Arda",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4443",
-    "name" : "Mehmet",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4450",
-    "name" : "Gizem",
-    "surname" : "Arslan",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Burak",
       "surname" : "Arslan",
+      "cinsiyet" : "K",
       "bornyear" : "01-01-1800",
-      "personalid" : "4449"
-    },
-    "parentId" : "4448",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4452",
-    "name" : "Onur",
-    "surname" : "Arslan",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Sena",
-      "surname" : "Arslan",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4451"
-    },
-    "parentId" : "4448",
-    "childrenIds" : [ "4454", "4456", "4458" ]
-  }, {
-    "id" : "4460",
-    "name" : "Selin",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Emre",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4459"
-    },
-    "parentId" : "4448",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4447",
-    "name" : "Mucip",
-    "surname" : "Arslan",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4464",
-    "name" : "Serkan",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Sibel",
-      "surname" : "Yalçın",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4463"
-    },
-    "parentId" : "4462",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4461",
-    "name" : "Ege",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4472",
-    "name" : "Emre",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4471"
-    },
-    "parentId" : "4470",
-    "childrenIds" : [ "4474" ]
-  }, {
-    "id" : "4476",
-    "name" : "Selin",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ahmet",
-      "surname" : "Yalçın",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4475"
-    },
-    "parentId" : "4470",
-    "childrenIds" : [ "4478", "4480" ]
-  }, {
-    "id" : "4469",
-    "name" : "Aslı",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4481",
-    "name" : "Onur",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4507",
-    "name" : "Sena",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4512",
-    "name" : "Aslı",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Burak",
-      "surname" : "Acar",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4511"
-    },
-    "parentId" : "4510",
-    "childrenIds" : [ "4514", "4516", "4518" ]
-  }, {
-    "id" : "4520",
-    "name" : "İpek",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mucip",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4519"
-    },
-    "parentId" : "4510",
-    "childrenIds" : [ "4522", "4524", "4526" ]
-  }, {
-    "id" : "4509",
-    "name" : "Zeynep",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4530",
-    "name" : "Kerem",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ezgi",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4529"
-    },
-    "parentId" : "4528",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4532",
-    "name" : "Cansu",
-    "surname" : "Taş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Can",
-      "surname" : "Taş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4531"
-    },
-    "parentId" : "4528",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4527",
-    "name" : "Mert",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4546",
-    "name" : "Selin",
-    "surname" : "Çelik",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Onur",
-      "surname" : "Çelik",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4545"
-    },
-    "parentId" : "4544",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4548",
-    "name" : "Selin",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Can",
-      "surname" : "Yalçın",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4547"
-    },
-    "parentId" : "4544",
-    "childrenIds" : [ "4550" ]
-  }, {
-    "id" : "4552",
-    "name" : "Can",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4544",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4543",
-    "name" : "Ege",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4556",
-    "name" : "Gizem",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Can",
-      "surname" : "Yalçın",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4555"
-    },
-    "parentId" : "4554",
-    "childrenIds" : [ "4558", "4560", "4562" ]
-  }, {
-    "id" : "4553",
-    "name" : "Selin",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4570",
-    "name" : "Zeynep",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Baran",
-      "surname" : "Bozkurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4569"
-    },
-    "parentId" : "4568",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4572",
-    "name" : "Mehmet",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ezgi",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4571"
-    },
-    "parentId" : "4568",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4574",
-    "name" : "Mert",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4568",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4567",
-    "name" : "Kerem",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4578",
-    "name" : "Kerem",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ezgi",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4577"
-    },
-    "parentId" : "4576",
-    "childrenIds" : [ "4580", "4582" ]
-  }, {
-    "id" : "4584",
-    "name" : "Mucip",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Cansu",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4583"
-    },
-    "parentId" : "4576",
-    "childrenIds" : [ "4586" ]
-  }, {
-    "id" : "4588",
-    "name" : "Baran",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Fatma",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4587"
-    },
-    "parentId" : "4576",
-    "childrenIds" : [ "4590" ]
-  }, {
-    "id" : "4575",
-    "name" : "Elif",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4594",
-    "name" : "Aslı",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Kerem",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4593"
-    },
-    "parentId" : "4592",
-    "childrenIds" : [ "4596", "4598" ]
-  }, {
-    "id" : "4591",
-    "name" : "Cem",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4604",
-    "name" : "Emre",
-    "surname" : "Çelik",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ezgi",
-      "surname" : "Çelik",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4603"
-    },
-    "parentId" : "4602",
-    "childrenIds" : [ "4606", "4608", "4610" ]
-  }, {
-    "id" : "4601",
-    "name" : "Mehmet",
-    "surname" : "Çelik",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4614",
-    "name" : "Aslı",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4612",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4611",
-    "name" : "Derya",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4618",
-    "name" : "Ahmet",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4617"
-    },
-    "parentId" : "4616",
-    "childrenIds" : [ "4620", "4622" ]
-  }, {
-    "id" : "4615",
-    "name" : "Burak",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4372",
-    "name" : "Mehmet",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Selin",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4371"
-    },
-    "parentId" : "4370",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4374",
-    "name" : "Arda",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4370",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4376",
-    "name" : "Kerem",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Gizem",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4375"
-    },
-    "parentId" : "4370",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4369",
-    "name" : "Cansu",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4380",
-    "name" : "Zeynep",
-    "surname" : "Koç",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4378",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4382",
-    "name" : "Burak",
-    "surname" : "Koç",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Cansu",
-      "surname" : "Koç",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4381"
-    },
-    "parentId" : "4378",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4384",
-    "name" : "Onur",
-    "surname" : "Koç",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Fatma",
-      "surname" : "Koç",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4383"
-    },
-    "parentId" : "4378",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4377",
-    "name" : "Mucip",
-    "surname" : "Koç",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4388",
-    "name" : "Burak",
-    "surname" : "Kurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4386",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4390",
-    "name" : "Fatma",
-    "surname" : "Şahin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Can",
-      "surname" : "Şahin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4389"
-    },
-    "parentId" : "4386",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4392",
-    "name" : "Ali",
-    "surname" : "Kurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Fatma",
-      "surname" : "Kurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4391"
-    },
-    "parentId" : "4386",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4385",
-    "name" : "Mucip",
-    "surname" : "Kurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4398",
-    "name" : "Kerem",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Gizem",
-      "surname" : "Bozkurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4397"
-    },
-    "parentId" : "4396",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4400",
-    "name" : "İpek",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4396",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4402",
-    "name" : "Mert",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Sibel",
-      "surname" : "Bozkurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4401"
-    },
-    "parentId" : "4396",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4395",
-    "name" : "Melis",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4406",
-    "name" : "Sena",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4404",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4408",
-    "name" : "Onur",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4404",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4410",
-    "name" : "Ahmet",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4404",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4403",
-    "name" : "Kerem",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4422",
-    "name" : "Can",
-    "surname" : "Şeker",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4420",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4419",
-    "name" : "Fatma",
-    "surname" : "Şeker",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4432",
-    "name" : "Mert",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4430",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4429",
-    "name" : "Ahmet",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4437",
-    "name" : "Ege",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4442",
-    "name" : "Emre",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4440",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4439",
-    "name" : "Ege",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4449",
-    "name" : "Burak",
-    "surname" : "Arslan",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4454",
-    "name" : "Melis",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Burak",
-      "surname" : "Bilgin",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4453"
-    },
-    "parentId" : "4452",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4456",
-    "name" : "Ege",
-    "surname" : "Arslan",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4452",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4458",
-    "name" : "Zeynep",
-    "surname" : "Arslan",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4452",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4451",
-    "name" : "Sena",
-    "surname" : "Arslan",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4459",
-    "name" : "Emre",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4463",
-    "name" : "Sibel",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4474",
-    "name" : "Serkan",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4472",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4471",
-    "name" : "Ayşe",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4478",
-    "name" : "Burak",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ayşe",
-      "surname" : "Yalçın",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4477"
-    },
-    "parentId" : "4476",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4480",
-    "name" : "Mehmet",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4476",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4475",
-    "name" : "Ahmet",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4514",
-    "name" : "Derya",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4512",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4516",
-    "name" : "Ahmet",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Hülya",
-      "surname" : "Acar",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4515"
-    },
-    "parentId" : "4512",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4518",
-    "name" : "Selin",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Baran",
-      "surname" : "Bozkurt",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4517"
-    },
-    "parentId" : "4512",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4511",
-    "name" : "Burak",
-    "surname" : "Acar",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4522",
-    "name" : "Cem",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4520",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4524",
-    "name" : "Onur",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4520",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4526",
-    "name" : "Elif",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4520",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4519",
-    "name" : "Mucip",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4529",
-    "name" : "Ezgi",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4531",
-    "name" : "Can",
-    "surname" : "Taş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4545",
-    "name" : "Onur",
-    "surname" : "Çelik",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4550",
-    "name" : "Cansu",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4548",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4547",
-    "name" : "Can",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4558",
-    "name" : "Ali",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Elif",
-      "surname" : "Yalçın",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4557"
-    },
-    "parentId" : "4556",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4560",
-    "name" : "Elif",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mert",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4559"
-    },
-    "parentId" : "4556",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4562",
-    "name" : "Arda",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4556",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4555",
-    "name" : "Can",
-    "surname" : "Yalçın",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4569",
-    "name" : "Baran",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4571",
-    "name" : "Ezgi",
-    "surname" : "Bilgin",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4580",
-    "name" : "Ayşe",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4578",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4582",
-    "name" : "Ege",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4578",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4577",
-    "name" : "Ezgi",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4586",
-    "name" : "Cem",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Melis",
-      "surname" : "Korkmaz",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4585"
-    },
-    "parentId" : "4584",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4583",
-    "name" : "Cansu",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4590",
-    "name" : "Cem",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4588",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4587",
-    "name" : "Fatma",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4596",
-    "name" : "Mucip",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : "4594",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4598",
-    "name" : "Mert",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Sena",
-      "surname" : "Öztürk",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4597"
-    },
-    "parentId" : "4594",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4593",
-    "name" : "Kerem",
-    "surname" : "Öztürk",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4606",
-    "name" : "Sibel",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ahmet",
-      "surname" : "Kaya",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4605"
-    },
-    "parentId" : "4604",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4608",
-    "name" : "Emre",
-    "surname" : "Çelik",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Ezgi",
-      "surname" : "Çelik",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4607"
-    },
-    "parentId" : "4604",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4610",
-    "name" : "Onur",
-    "surname" : "Çelik",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Selin",
-      "surname" : "Çelik",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4609"
-    },
-    "parentId" : "4604",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4603",
-    "name" : "Ezgi",
-    "surname" : "Çelik",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4620",
-    "name" : "Cem",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Sibel",
-      "surname" : "Güneş",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4619"
-    },
-    "parentId" : "4618",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4622",
-    "name" : "Derya",
-    "surname" : "Demir",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : {
-      "name" : "Mucip",
-      "surname" : "Demir",
-      "bornyear" : "01-01-1800",
-      "personalid" : "4621"
-    },
-    "parentId" : "4618",
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4617",
-    "name" : "Ayşe",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4371",
-    "name" : "Selin",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4375",
-    "name" : "Gizem",
-    "surname" : "Kaya",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4381",
-    "name" : "Cansu",
-    "surname" : "Koç",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4383",
-    "name" : "Fatma",
-    "surname" : "Koç",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4389",
-    "name" : "Can",
-    "surname" : "Şahin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4391",
-    "name" : "Fatma",
-    "surname" : "Kurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4397",
-    "name" : "Gizem",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4401",
-    "name" : "Sibel",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4453",
-    "name" : "Burak",
-    "surname" : "Bilgin",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4477",
-    "name" : "Ayşe",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4515",
-    "name" : "Hülya",
-    "surname" : "Acar",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4517",
-    "name" : "Baran",
-    "surname" : "Bozkurt",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4557",
-    "name" : "Elif",
-    "surname" : "Yalçın",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4559",
-    "name" : "Mert",
-    "surname" : "Güneş",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4585",
-    "name" : "Melis",
-    "surname" : "Korkmaz",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4597",
-    "name" : "Sena",
-    "surname" : "Öztürk",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4605",
-    "name" : "Ahmet",
-    "surname" : "Kaya",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4607",
-    "name" : "Ezgi",
-    "surname" : "Çelik",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4609",
-    "name" : "Selin",
-    "surname" : "Çelik",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4619",
-    "name" : "Sibel",
-    "surname" : "Güneş",
-    "cinsiyet" : "K",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
-  }, {
-    "id" : "4621",
-    "name" : "Mucip",
-    "surname" : "Demir",
-    "cinsiyet" : "E",
-    "bornyear" : "01-01-1800",
-    "partner" : null,
-    "parentId" : null,
-    "childrenIds" : [ ]
+      "partner" : {
+        "name" : "Cem",
+        "surname" : "Arslan",
+        "bornyear" : "01-01-1800",
+        "personalid" : "4763"
+      },
+      "children" : [ {
+        "personalid" : "4766",
+        "name" : "Sibel",
+        "surname" : "Arslan",
+        "cinsiyet" : "K",
+        "bornyear" : "01-01-1800",
+        "partner" : {
+          "name" : "Burak",
+          "surname" : "Arslan",
+          "bornyear" : "01-01-1800",
+          "personalid" : "4765"
+        },
+        "children" : [ {
+          "personalid" : "4768",
+          "name" : "Melis",
+          "surname" : "Koç",
+          "cinsiyet" : "K",
+          "bornyear" : "01-01-1800",
+          "partner" : {
+            "name" : "Arda",
+            "surname" : "Koç",
+            "bornyear" : "01-01-1800",
+            "personalid" : "4767"
+          },
+          "children" : [ {
+            "personalid" : "4770",
+            "name" : "Elif",
+            "surname" : "Güneş",
+            "cinsiyet" : "K",
+            "bornyear" : "01-01-1800",
+            "partner" : {
+              "name" : "Baran",
+              "surname" : "Güneş",
+              "bornyear" : "01-01-1800",
+              "personalid" : "4769"
+            },
+            "children" : [ {
+              "personalid" : "4772",
+              "name" : "Onur",
+              "surname" : "Güneş",
+              "cinsiyet" : "E",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Aslı",
+                "surname" : "Güneş",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4771"
+              },
+              "children" : [ {
+                "personalid" : "4774",
+                "name" : "Gizem",
+                "surname" : "Aslan",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Can",
+                  "surname" : "Aslan",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4773"
+                },
+                "children" : [ {
+                  "personalid" : "4776",
+                  "name" : "Aslı",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Can",
+                    "surname" : "Çelik",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4775"
+                  },
+                  "children" : [ {
+                    "personalid" : "4778",
+                    "name" : "Serkan",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Hülya",
+                      "surname" : "Çelik",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4777"
+                    },
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4780",
+                  "name" : "Mucip",
+                  "surname" : "Aslan",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Ayşe",
+                    "surname" : "Aslan",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4779"
+                  },
+                  "children" : [ {
+                    "personalid" : "4782",
+                    "name" : "Ali",
+                    "surname" : "Aslan",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Aslı",
+                      "surname" : "Aslan",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4781"
+                    },
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4784",
+              "name" : "Gizem",
+              "surname" : "Taş",
+              "cinsiyet" : "K",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Burak",
+                "surname" : "Taş",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4783"
+              },
+              "children" : [ {
+                "personalid" : "4786",
+                "name" : "Arda",
+                "surname" : "Taş",
+                "cinsiyet" : "E",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Derya",
+                  "surname" : "Taş",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4785"
+                },
+                "children" : [ {
+                  "personalid" : "4788",
+                  "name" : "Mehmet",
+                  "surname" : "Taş",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "İpek",
+                    "surname" : "Taş",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4787"
+                  },
+                  "children" : [ ]
+                } ]
+              }, {
+                "personalid" : "4790",
+                "name" : "Selin",
+                "surname" : "Koç",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Mert",
+                  "surname" : "Koç",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4789"
+                },
+                "children" : [ {
+                  "personalid" : "4792",
+                  "name" : "Fatma",
+                  "surname" : "Bilgin",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Ahmet",
+                    "surname" : "Bilgin",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4791"
+                  },
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4794",
+                  "name" : "Mucip",
+                  "surname" : "Koç",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Elif",
+                    "surname" : "Koç",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4793"
+                  },
+                  "children" : [ {
+                    "personalid" : "4796",
+                    "name" : "Gizem",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Onur",
+                      "surname" : "Çelik",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4795"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4798",
+                    "name" : "İpek",
+                    "surname" : "Koç",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4800",
+                    "name" : "Gizem",
+                    "surname" : "Koç",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Onur",
+                      "surname" : "Koç",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4799"
+                    },
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4802",
+              "name" : "Ali",
+              "surname" : "Güneş",
+              "cinsiyet" : "E",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Elif",
+                "surname" : "Güneş",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4801"
+              },
+              "children" : [ {
+                "personalid" : "4804",
+                "name" : "İpek",
+                "surname" : "Bozkurt",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Kerem",
+                  "surname" : "Bozkurt",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4803"
+                },
+                "children" : [ {
+                  "personalid" : "4806",
+                  "name" : "Cansu",
+                  "surname" : "Bilgin",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Burak",
+                    "surname" : "Bilgin",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4805"
+                  },
+                  "children" : [ {
+                    "personalid" : "4808",
+                    "name" : "Selin",
+                    "surname" : "Güneş",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Mehmet",
+                      "surname" : "Güneş",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4807"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4810",
+                    "name" : "Melis",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Baran",
+                      "surname" : "Korkmaz",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4809"
+                    },
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4812",
+                  "name" : "Zeynep",
+                  "surname" : "Korkmaz",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Kerem",
+                    "surname" : "Korkmaz",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4811"
+                  },
+                  "children" : [ {
+                    "personalid" : "4814",
+                    "name" : "Serkan",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Sibel",
+                      "surname" : "Korkmaz",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4813"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4816",
+                    "name" : "Ege",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Selin",
+                      "surname" : "Korkmaz",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4815"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4818",
+                    "name" : "Ezgi",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4820",
+                  "name" : "Ahmet",
+                  "surname" : "Bozkurt",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Elif",
+                    "surname" : "Bozkurt",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4819"
+                  },
+                  "children" : [ {
+                    "personalid" : "4822",
+                    "name" : "İpek",
+                    "surname" : "Yanalak",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Cem",
+                      "surname" : "Yanalak",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4821"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4824",
+                    "name" : "Arda",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4826",
+                    "name" : "İpek",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              }, {
+                "personalid" : "4828",
+                "name" : "Onur",
+                "surname" : "Güneş",
+                "cinsiyet" : "E",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Selin",
+                  "surname" : "Güneş",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4827"
+                },
+                "children" : [ {
+                  "personalid" : "4830",
+                  "name" : "Ezgi",
+                  "surname" : "Güneş",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : null,
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4832",
+                  "name" : "Derya",
+                  "surname" : "Yanalak",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Burak",
+                    "surname" : "Yanalak",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4831"
+                  },
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4834",
+                  "name" : "Selin",
+                  "surname" : "Bozkurt",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Cem",
+                    "surname" : "Bozkurt",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4833"
+                  },
+                  "children" : [ {
+                    "personalid" : "4836",
+                    "name" : "Ahmet",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Hülya",
+                      "surname" : "Bozkurt",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4835"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4838",
+                    "name" : "İpek",
+                    "surname" : "Güneş",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Ahmet",
+                      "surname" : "Güneş",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4837"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4840",
+                    "name" : "Cem",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "personalid" : "4842",
+        "name" : "Ege",
+        "surname" : "Arslan",
+        "cinsiyet" : "E",
+        "bornyear" : "01-01-1800",
+        "partner" : {
+          "name" : "Derya",
+          "surname" : "Arslan",
+          "bornyear" : "01-01-1800",
+          "personalid" : "4841"
+        },
+        "children" : [ {
+          "personalid" : "4844",
+          "name" : "Ali",
+          "surname" : "Arslan",
+          "cinsiyet" : "E",
+          "bornyear" : "01-01-1800",
+          "partner" : {
+            "name" : "Ezgi",
+            "surname" : "Arslan",
+            "bornyear" : "01-01-1800",
+            "personalid" : "4843"
+          },
+          "children" : [ {
+            "personalid" : "4846",
+            "name" : "Sena",
+            "surname" : "Aslan",
+            "cinsiyet" : "K",
+            "bornyear" : "01-01-1800",
+            "partner" : {
+              "name" : "Ali",
+              "surname" : "Aslan",
+              "bornyear" : "01-01-1800",
+              "personalid" : "4845"
+            },
+            "children" : [ {
+              "personalid" : "4848",
+              "name" : "Zeynep",
+              "surname" : "Korkmaz",
+              "cinsiyet" : "K",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Ali",
+                "surname" : "Korkmaz",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4847"
+              },
+              "children" : [ {
+                "personalid" : "4850",
+                "name" : "Selin",
+                "surname" : "Kurt",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Arda",
+                  "surname" : "Kurt",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4849"
+                },
+                "children" : [ {
+                  "personalid" : "4852",
+                  "name" : "Sibel",
+                  "surname" : "Şeker",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Burak",
+                    "surname" : "Şeker",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4851"
+                  },
+                  "children" : [ {
+                    "personalid" : "4854",
+                    "name" : "Can",
+                    "surname" : "Şeker",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4856",
+              "name" : "Ahmet",
+              "surname" : "Aslan",
+              "cinsiyet" : "E",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Gizem",
+                "surname" : "Aslan",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4855"
+              },
+              "children" : [ {
+                "personalid" : "4858",
+                "name" : "Kerem",
+                "surname" : "Aslan",
+                "cinsiyet" : "E",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Selin",
+                  "surname" : "Aslan",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4857"
+                },
+                "children" : [ {
+                  "personalid" : "4860",
+                  "name" : "Mucip",
+                  "surname" : "Aslan",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Sibel",
+                    "surname" : "Aslan",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4859"
+                  },
+                  "children" : [ {
+                    "personalid" : "4862",
+                    "name" : "Ezgi",
+                    "surname" : "Aslan",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              }, {
+                "personalid" : "4864",
+                "name" : "Cansu",
+                "surname" : "Güneş",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Ahmet",
+                  "surname" : "Güneş",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4863"
+                },
+                "children" : [ {
+                  "personalid" : "4866",
+                  "name" : "Selin",
+                  "surname" : "Koç",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Arda",
+                    "surname" : "Koç",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4865"
+                  },
+                  "children" : [ {
+                    "personalid" : "4868",
+                    "name" : "Kerem",
+                    "surname" : "Koç",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              }, {
+                "personalid" : "4870",
+                "name" : "Elif",
+                "surname" : "Çelik",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Baran",
+                  "surname" : "Çelik",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4869"
+                },
+                "children" : [ {
+                  "personalid" : "4872",
+                  "name" : "Hülya",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : null,
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4874",
+                  "name" : "Can",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Zeynep",
+                    "surname" : "Çelik",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4873"
+                  },
+                  "children" : [ {
+                    "personalid" : "4876",
+                    "name" : "Cem",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4878",
+                  "name" : "Arda",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Hülya",
+                    "surname" : "Çelik",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4877"
+                  },
+                  "children" : [ {
+                    "personalid" : "4880",
+                    "name" : "Serkan",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4882",
+              "name" : "Ege",
+              "surname" : "Aslan",
+              "cinsiyet" : "E",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Melis",
+                "surname" : "Aslan",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4881"
+              },
+              "children" : [ {
+                "personalid" : "4884",
+                "name" : "Mucip",
+                "surname" : "Aslan",
+                "cinsiyet" : "E",
+                "bornyear" : "01-01-1800",
+                "partner" : null,
+                "children" : [ ]
+              }, {
+                "personalid" : "4886",
+                "name" : "Ege",
+                "surname" : "Aslan",
+                "cinsiyet" : "E",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Fatma",
+                  "surname" : "Aslan",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4885"
+                },
+                "children" : [ {
+                  "personalid" : "4888",
+                  "name" : "Emre",
+                  "surname" : "Aslan",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Ezgi",
+                    "surname" : "Aslan",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4887"
+                  },
+                  "children" : [ {
+                    "personalid" : "4890",
+                    "name" : "Serkan",
+                    "surname" : "Aslan",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Ayşe",
+                      "surname" : "Aslan",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4889"
+                    },
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "personalid" : "4892",
+            "name" : "Mucip",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "01-01-1800",
+            "partner" : {
+              "name" : "Elif",
+              "surname" : "Arslan",
+              "bornyear" : "01-01-1800",
+              "personalid" : "4891"
+            },
+            "children" : [ {
+              "personalid" : "4894",
+              "name" : "Sena",
+              "surname" : "Korkmaz",
+              "cinsiyet" : "K",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Ahmet",
+                "surname" : "Korkmaz",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4893"
+              },
+              "children" : [ {
+                "personalid" : "4896",
+                "name" : "Aslı",
+                "surname" : "Çelik",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Ege",
+                  "surname" : "Çelik",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4895"
+                },
+                "children" : [ {
+                  "personalid" : "4898",
+                  "name" : "Cansu",
+                  "surname" : "Acar",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Emre",
+                    "surname" : "Acar",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4897"
+                  },
+                  "children" : [ {
+                    "personalid" : "4900",
+                    "name" : "Ege",
+                    "surname" : "Acar",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4902",
+                    "name" : "Can",
+                    "surname" : "Acar",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Ayşe",
+                      "surname" : "Acar",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4901"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4904",
+                    "name" : "Elif",
+                    "surname" : "Acar",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4906",
+                  "name" : "Selin",
+                  "surname" : "Kaya",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Mehmet",
+                    "surname" : "Kaya",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4905"
+                  },
+                  "children" : [ {
+                    "personalid" : "4908",
+                    "name" : "Mehmet",
+                    "surname" : "Kaya",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4910",
+                    "name" : "Serkan",
+                    "surname" : "Kaya",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4912",
+                    "name" : "Emre",
+                    "surname" : "Kaya",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4914",
+              "name" : "Cansu",
+              "surname" : "Acar",
+              "cinsiyet" : "K",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Ege",
+                "surname" : "Acar",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4913"
+              },
+              "children" : [ {
+                "personalid" : "4916",
+                "name" : "Selin",
+                "surname" : "Acar",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : null,
+                "children" : [ ]
+              }, {
+                "personalid" : "4918",
+                "name" : "Derya",
+                "surname" : "Öztürk",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Kerem",
+                  "surname" : "Öztürk",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4917"
+                },
+                "children" : [ {
+                  "personalid" : "4920",
+                  "name" : "Ayşe",
+                  "surname" : "Bozkurt",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Mucip",
+                    "surname" : "Bozkurt",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4919"
+                  },
+                  "children" : [ {
+                    "personalid" : "4922",
+                    "name" : "Onur",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Hülya",
+                      "surname" : "Bozkurt",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4921"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4924",
+                    "name" : "Selin",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4926",
+                  "name" : "Ahmet",
+                  "surname" : "Öztürk",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Ayşe",
+                    "surname" : "Öztürk",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4925"
+                  },
+                  "children" : [ {
+                    "personalid" : "4928",
+                    "name" : "Elif",
+                    "surname" : "Öztürk",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4930",
+                    "name" : "Cem",
+                    "surname" : "Öztürk",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : {
+                      "name" : "Aslı",
+                      "surname" : "Öztürk",
+                      "bornyear" : "01-01-1800",
+                      "personalid" : "4929"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4932",
+                    "name" : "Mert",
+                    "surname" : "Öztürk",
+                    "cinsiyet" : "E",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "personalid" : "4934",
+            "name" : "Onur",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "01-01-1800",
+            "partner" : {
+              "name" : "Sena",
+              "surname" : "Arslan",
+              "bornyear" : "01-01-1800",
+              "personalid" : "4933"
+            },
+            "children" : [ {
+              "personalid" : "4936",
+              "name" : "Aslı",
+              "surname" : "Türkmen",
+              "cinsiyet" : "K",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Mehmet",
+                "surname" : "Türkmen",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4935"
+              },
+              "children" : [ {
+                "personalid" : "4938",
+                "name" : "Serkan",
+                "surname" : "Türkmen",
+                "cinsiyet" : "E",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Zeynep",
+                  "surname" : "Türkmen",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4937"
+                },
+                "children" : [ ]
+              } ]
+            } ]
+          } ]
+        }, {
+          "personalid" : "4940",
+          "name" : "Ali",
+          "surname" : "Arslan",
+          "cinsiyet" : "E",
+          "bornyear" : "01-01-1800",
+          "partner" : {
+            "name" : "Zeynep",
+            "surname" : "Arslan",
+            "bornyear" : "01-01-1800",
+            "personalid" : "4939"
+          },
+          "children" : [ {
+            "personalid" : "4942",
+            "name" : "Derya",
+            "surname" : "Yanalak",
+            "cinsiyet" : "K",
+            "bornyear" : "01-01-1800",
+            "partner" : {
+              "name" : "Mucip",
+              "surname" : "Yanalak",
+              "bornyear" : "01-01-1800",
+              "personalid" : "4941"
+            },
+            "children" : [ ]
+          }, {
+            "personalid" : "4944",
+            "name" : "Arda",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "01-01-1800",
+            "partner" : {
+              "name" : "Cansu",
+              "surname" : "Arslan",
+              "bornyear" : "01-01-1800",
+              "personalid" : "4943"
+            },
+            "children" : [ {
+              "personalid" : "4946",
+              "name" : "Ahmet",
+              "surname" : "Arslan",
+              "cinsiyet" : "E",
+              "bornyear" : "01-01-1800",
+              "partner" : null,
+              "children" : [ ]
+            }, {
+              "personalid" : "4948",
+              "name" : "Elif",
+              "surname" : "Kaya",
+              "cinsiyet" : "K",
+              "bornyear" : "01-01-1800",
+              "partner" : {
+                "name" : "Burak",
+                "surname" : "Kaya",
+                "bornyear" : "01-01-1800",
+                "personalid" : "4947"
+              },
+              "children" : [ {
+                "personalid" : "4950",
+                "name" : "Aslı",
+                "surname" : "Acar",
+                "cinsiyet" : "K",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Emre",
+                  "surname" : "Acar",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4949"
+                },
+                "children" : [ {
+                  "personalid" : "4952",
+                  "name" : "Kerem",
+                  "surname" : "Acar",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-01-1800",
+                  "partner" : null,
+                  "children" : [ ]
+                } ]
+              }, {
+                "personalid" : "4954",
+                "name" : "Kerem",
+                "surname" : "Kaya",
+                "cinsiyet" : "E",
+                "bornyear" : "01-01-1800",
+                "partner" : {
+                  "name" : "Gizem",
+                  "surname" : "Kaya",
+                  "bornyear" : "01-01-1800",
+                  "personalid" : "4953"
+                },
+                "children" : [ {
+                  "personalid" : "4956",
+                  "name" : "Cansu",
+                  "surname" : "Bilgin",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-01-1800",
+                  "partner" : {
+                    "name" : "Emre",
+                    "surname" : "Bilgin",
+                    "bornyear" : "01-01-1800",
+                    "personalid" : "4955"
+                  },
+                  "children" : [ {
+                    "personalid" : "4958",
+                    "name" : "Zeynep",
+                    "surname" : "Bilgin",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4960",
+                    "name" : "Fatma",
+                    "surname" : "Bilgin",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-01-1800",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "personalid" : "4962",
+            "name" : "Kerem",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "01-01-1800",
+            "partner" : null,
+            "children" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
   } ]
 }

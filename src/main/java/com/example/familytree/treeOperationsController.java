@@ -48,6 +48,7 @@ public class treeOperationsController implements Initializable {
     @FXML
     private ChoiceBox<human> parentChoiceBox;
     private static human selectedperson;
+    public static human currentfamilyroot;
 
     //   soy ağacından silinen kişiler json dan da silinmeli. veya kullanıcı kaydet dediği zaman mevcut soyağacının bilgilerini yeniden yazmalı.
 
@@ -57,13 +58,20 @@ public class treeOperationsController implements Initializable {
     }
 
     public void setupTree() {
+
+        try {
+            Json_WriterandReader.writeFamilyTree(mainScreenController.getCurrentFamilyName(),currentfamilyroot);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
         soyIsmeGoreKisi.setText(mainScreenController.getCurrentFamilyName()+" Ailesi");
         saveChangesButton.setVisible(false);
         deletePersonButton.setVisible(false);
         iptalBtn.setVisible(false);
         setEditable(false);
         rightAnchor.setVisible(false);
-        human familytreeRoot = FamilyTree.getRoot(mainScreenController.getCurrentFamilyName());
+        human familytreeRoot = currentfamilyroot;
         treeViewfamilytree.setStyle("-fx-font-size: 18px;");
 
         if (familytreeRoot == null) {
@@ -193,7 +201,7 @@ public class treeOperationsController implements Initializable {
             parentChoiceBox.getItems().clear();
 
 
-            recursiveFillParentCB(FamilyTree.getRoot(mainScreenController.getCurrentFamilyName()),1);
+            recursiveFillParentCB(currentfamilyroot,1);
 
         }
     }
@@ -330,6 +338,9 @@ public class treeOperationsController implements Initializable {
         deletePersonButton.setVisible(false);
 
         setEditable(false);
+
+
+
         setupTree();
 
     }
@@ -359,9 +370,9 @@ public class treeOperationsController implements Initializable {
         femaleRadioButton.setMouseTransparent(false);
         femaleRadioButton.setSelected(false);
 
-        if (FamilyTree.getRoot(mainScreenController.getCurrentFamilyName())!=null){
-            recursiveFillParentCB(FamilyTree.getRoot(mainScreenController.getCurrentFamilyName()),2);
-            parentChoiceBox.setValue(FamilyTree.getRoot(mainScreenController.getCurrentFamilyName()));
+        if (currentfamilyroot!=null){
+            recursiveFillParentCB(currentfamilyroot,2);
+            parentChoiceBox.setValue(currentfamilyroot);
             parentChoiceBox.setVisible(true);
             parentChoiceBox.setMouseTransparent(false);
         }else {
@@ -437,7 +448,7 @@ public class treeOperationsController implements Initializable {
 
             human human12 = new human(name,surname,bornyear,cinsiyet);
 
-        if (FamilyTree.getRoot(mainScreenController.getCurrentFamilyName())==null){
+        if (currentfamilyroot==null){
             FamilyTree.setRoot(mainScreenController.getCurrentFamilyName(),human12);
 
         }else {
@@ -507,7 +518,7 @@ public class treeOperationsController implements Initializable {
         if (!isDeleteConfirmation()){
             return;
         }
-        if (selectedperson==FamilyTree.getRoot(mainScreenController.getCurrentFamilyName())){
+        if (selectedperson==currentfamilyroot){
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("İmkansız");
             alert.setHeaderText(null);

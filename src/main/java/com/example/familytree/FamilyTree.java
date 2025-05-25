@@ -1,18 +1,19 @@
 package com.example.familytree;
 
 
+import java.io.File;
+
 public class FamilyTree {
     String familytreename;
     human root;
     private static MyLinkedList<FamilyTree> allfamilytree = new MyLinkedList<>();
 
+
+
     public static boolean isFamilyNameinList(String familyname) {
-        for (FamilyTree tree : allfamilytree) {
-            if (tree.familytreename.equals(familyname)) {
-                return true;
-            }
-        }
-        return false;
+        File folder = new File("src/main/java/Jsonlar/");
+        File file123 = new File(folder, familyname + ".json");
+        return file123.exists();
     }
 
     //------------------------------constructors-------------------------------//
