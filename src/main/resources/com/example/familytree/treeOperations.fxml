@@ -27,7 +27,7 @@
             <URL value="@css/style.css" />
             <URL value="@css/treeview.css" />
          </stylesheets></TreeView>
-      <Label fx:id="soyIsmeGoreKisi" layoutX="171.0" layoutY="15.0" prefHeight="17.0" prefWidth="206.0" styleClass="buyukBasliklar" stylesheets="@css/kisi.css" text="Hazir Ailesi" textFill="#4dcea3">
+      <Label fx:id="soyIsmeGoreKisi" layoutX="80.0" layoutY="15.0" prefHeight="17.0" prefWidth="206.0" styleClass="buyukBasliklar" stylesheets="@css/kisi.css" text="Hazir Ailesi" textFill="#4dcea3">
          <font>
             <Font name="Arial Black" size="38.0" />
          </font>
@@ -140,6 +140,7 @@
          </image>
       </ImageView>
       <Button layoutX="514.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#backtomainpage" stylesheets="@css/style.css" text="Soy Ağacını Çiz" />
-      <Button layoutX="391.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#addPersontoTree" prefHeight="34.0" prefWidth="101.0" stylesheets="@css/style.css" text="Kişi Ekle" />
+      <Button layoutX="401.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#addPersontoTree" prefHeight="34.0" prefWidth="101.0" stylesheets="@css/style.css" text="Kişi Ekle" />
+      <Button layoutX="290.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#search" prefHeight="34.0" prefWidth="101.0" stylesheets="@css/style.css" text="Kişi Ara" />
    </children>
 </AnchorPane>

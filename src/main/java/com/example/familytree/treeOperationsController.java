@@ -42,7 +42,7 @@ public class treeOperationsController implements Initializable {
     @FXML
     private ListView<human> grandkidsListView, kidsListview;
     @FXML
-    private Button saveChangesButton, deletePersonButton, iptalBtn, soyAgaciCiz,duzenleButton;
+    private Button saveChangesButton, deletePersonButton, iptalBtn, soyAgaciCiz,duzenleButton,search;
     @FXML
     private ImageView partnerImage;
     @FXML
@@ -58,11 +58,7 @@ public class treeOperationsController implements Initializable {
 
     public void setupTree() {
 
-        try {
-            Json_WriterandReader.writeFamilyTree(mainScreenController.getCurrentFamilyName(),currentfamilyroot);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+
 
         soyIsmeGoreKisi.setText(mainScreenController.getCurrentFamilyName()+" Ailesi");
         saveChangesButton.setVisible(false);
@@ -138,7 +134,13 @@ public class treeOperationsController implements Initializable {
         }
     }
 
-
+    private void jsonayaz(){
+        try {
+            Json_WriterandReader.writeFamilyTree(mainScreenController.getCurrentFamilyName(),currentfamilyroot);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
     @FXML
     public void bringinformation() {
         partnerImage.setVisible(false);
@@ -241,6 +243,7 @@ public class treeOperationsController implements Initializable {
 
     @FXML
     private void backtomainpage() throws IOException {
+        jsonayaz();
         Stage stage = (Stage) treeViewfamilytree.getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("mainScreen.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
@@ -249,6 +252,7 @@ public class treeOperationsController implements Initializable {
     }
     @FXML
     private void backtologinscreen() throws IOException{
+        jsonayaz();
         Stage stage = (Stage) treeViewfamilytree.getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("loginScreen.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
@@ -339,7 +343,7 @@ public class treeOperationsController implements Initializable {
         setEditable(false);
 
 
-
+        jsonayaz();
         setupTree();
 
     }
@@ -449,6 +453,7 @@ public class treeOperationsController implements Initializable {
 
         if (currentfamilyroot==null){
             FamilyTree.setRoot(mainScreenController.getCurrentFamilyName(),human12);
+            treeOperationsController.currentfamilyroot = human12;
 
         }else {
             if (parentChoiceBox.getValue().partner==null){
@@ -471,7 +476,7 @@ public class treeOperationsController implements Initializable {
         }
 
 
-
+        jsonayaz();
         easyAccess();
     }
 
@@ -537,6 +542,7 @@ public class treeOperationsController implements Initializable {
 
 
         selectedperson = null;
+        jsonayaz();
         setupTree();    // kişi silindikten sonra ağacı tekrar yükle
     }
     private void recursiveDeletePerson(human humans){
@@ -610,5 +616,13 @@ public class treeOperationsController implements Initializable {
         return result[0];
     }
 
+    @FXML
+    private void search() throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("searchScreen.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage newStage = new Stage();
+        newStage.setScene(scene);
+        newStage.show();
+    }
 
 }

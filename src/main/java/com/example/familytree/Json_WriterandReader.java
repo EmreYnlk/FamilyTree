@@ -25,7 +25,7 @@ public class Json_WriterandReader {
 
 
 
-    public static human readFamilyTree(String familyTreeName) throws Exception {
+    public static FamilyTree readFamilyTree(String familyTreeName) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
 
         File folder = new File("src/main/java/Jsonlar/");
@@ -36,7 +36,8 @@ public class Json_WriterandReader {
         List<?> allMembersList = (List<?>) jsonData.get("allMembers");
         Object rootRaw = allMembersList.get(0);       //ilk member root
         HumanDTO rootDTO = mapper.convertValue(rootRaw, HumanDTO.class);
-        return convertToHuman(rootDTO, null);
+
+        return new FamilyTree(familyTreeName,convertToHuman(rootDTO, null));
     }
 
 

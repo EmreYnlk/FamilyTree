@@ -1,0 +1,12 @@
+{
+  "familytreename" : "deneme1",
+  "allMembers" : [ {
+    "personalid" : "10554",
+    "name" : "İsim Giriniz",
+    "surname" : "Soyisim Giriniz",
+    "cinsiyet" : "E",
+    "bornyear" : "08-05-2025",
+    "partner" : null,
+    "children" : [ ]
+  } ]
+}

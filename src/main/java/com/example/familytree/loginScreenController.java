@@ -1,5 +1,7 @@
 package com.example.familytree;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -34,14 +36,27 @@ public class loginScreenController {
 
 
             ////////////////////////////
-            human root123 =null;
             try {
-                root123 =Json_WriterandReader.readFamilyTree(familyNameString);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
+                ObjectMapper mapper = new ObjectMapper();
+                File folder = new File("src/main/java/Jsonlar/");
+                File file123 = new File(folder, familyNameString + ".json");
+                JsonNode rootNode = mapper.readTree(file123);
+                JsonNode allMembers = rootNode.get("allMembers");
+
+                if (allMembers != null && allMembers.size() != 0) {
+
+                    try {
+                        FamilyTree asd = Json_WriterandReader.readFamilyTree(familyNameString);
+                        treeOperationsController.currentfamilyroot = asd.root;
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
             }
             ///////////////////////////
-            treeOperationsController.currentfamilyroot = root123;
+
             controller.setupTree();
 
 
@@ -98,18 +113,41 @@ public class loginScreenController {
 
 
 
-            File folder = new File("src/main/java/Jsonlar/");
-            File file123 = new File(folder, familyNameString + ".json");
-            file123.createNewFile();
-
-
-
             try {
-                human root123 =Json_WriterandReader.readFamilyTree(familyNameString);
+                File folder = new File("src/main/java/Jsonlar/");
+                File file123 = new File(folder, familyNameString + ".json");
+                file123.createNewFile();
+                String jsonContent = "{\n" +
+                            "  \"familytreename\": \"" + familyNameString + "\",\n" +
+                            "  \"allMembers\": []\n" +
+                            "}";
+
+                    FileWriter writer = new FileWriter(file123);
+                    writer.write(jsonContent);
+                    writer.close();
+
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
+
+
+
+/*
+            human root123=null;
+            try {
+                root123 =Json_WriterandReader.readFamilyTree(familyNameString);
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
+            treeOperationsController.currentfamilyroot=root123;
             controller.setupTree();
+*/
+            treeOperationsController.currentfamilyroot=null;
+            controller.setupTree();
+
 
             stage.setX(150);
             stage.setY(150);
