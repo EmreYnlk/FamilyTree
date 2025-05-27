@@ -54,6 +54,17 @@ public class treeOperationsController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        nameTextfield.focusedProperty().addListener((obs, oldVal, newVal) -> {
+            if (newVal && nameTextfield.getText().equals("İsim Giriniz")) {
+                nameTextfield.clear();
+            }
+        });
+
+        surnameTextfield.focusedProperty().addListener((obs, oldVal, newVal) -> {
+            if (newVal && surnameTextfield.getText().equals("Soyisim Giriniz")) {
+                surnameTextfield.clear();
+            }
+        });
     }
 
     public void setupTree() {
