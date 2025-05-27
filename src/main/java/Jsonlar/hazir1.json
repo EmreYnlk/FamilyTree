@@ -1,4 +1,1182 @@
 {
   "familytreename" : "hazir1",
-  "allMembers" : [ ]
+  "allMembers" : [ {
+    "personalid" : "4762",
+    "name" : "Cem",
+    "surname" : "Arslan",
+    "cinsiyet" : "E",
+    "bornyear" : "01-01-1900",
+    "partner" : {
+      "name" : "Sena",
+      "surname" : "Arslan",
+      "bornyear" : "01-01-1900",
+      "personalid" : "4761"
+    },
+    "children" : [ {
+      "personalid" : "4764",
+      "name" : "Aslı",
+      "surname" : "Arslan",
+      "cinsiyet" : "K",
+      "bornyear" : "18-01-1920",
+      "partner" : {
+        "name" : "Cem",
+        "surname" : "Arslan",
+        "bornyear" : "18-01-1920",
+        "personalid" : "4763"
+      },
+      "children" : [ {
+        "personalid" : "4766",
+        "name" : "Sibel",
+        "surname" : "Arslan",
+        "cinsiyet" : "K",
+        "bornyear" : "13-06-1941",
+        "partner" : {
+          "name" : "Burak",
+          "surname" : "Arslan",
+          "bornyear" : "13-06-1941",
+          "personalid" : "4765"
+        },
+        "children" : [ {
+          "personalid" : "4768",
+          "name" : "Melis",
+          "surname" : "Koç",
+          "cinsiyet" : "K",
+          "bornyear" : "05-01-1962",
+          "partner" : {
+            "name" : "Arda",
+            "surname" : "Koç",
+            "bornyear" : "05-01-1962",
+            "personalid" : "4767"
+          },
+          "children" : [ {
+            "personalid" : "4770",
+            "name" : "Elif",
+            "surname" : "Güneş",
+            "cinsiyet" : "K",
+            "bornyear" : "20-05-1982",
+            "partner" : {
+              "name" : "Baran",
+              "surname" : "Güneş",
+              "bornyear" : "20-05-1982",
+              "personalid" : "4769"
+            },
+            "children" : [ {
+              "personalid" : "4772",
+              "name" : "Onur",
+              "surname" : "Güneş",
+              "cinsiyet" : "E",
+              "bornyear" : "03-09-2002",
+              "partner" : {
+                "name" : "Aslı",
+                "surname" : "Güneş",
+                "bornyear" : "03-09-2002",
+                "personalid" : "4771"
+              },
+              "children" : [ {
+                "personalid" : "4774",
+                "name" : "Gizem",
+                "surname" : "Aslan",
+                "cinsiyet" : "K",
+                "bornyear" : "30-05-2023",
+                "partner" : {
+                  "name" : "Can",
+                  "surname" : "Aslan",
+                  "bornyear" : "30-05-2023",
+                  "personalid" : "4773"
+                },
+                "children" : [ {
+                  "personalid" : "4776",
+                  "name" : "Aslı",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "K",
+                  "bornyear" : "09-06-2044",
+                  "partner" : {
+                    "name" : "Can",
+                    "surname" : "Çelik",
+                    "bornyear" : "09-06-2044",
+                    "personalid" : "4775"
+                  },
+                  "children" : [ {
+                    "personalid" : "4778",
+                    "name" : "Serkan",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "E",
+                    "bornyear" : "20-11-2065",
+                    "partner" : {
+                      "name" : "Hülya",
+                      "surname" : "Çelik",
+                      "bornyear" : "20-11-2065",
+                      "personalid" : "4777"
+                    },
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4780",
+                  "name" : "Mucip",
+                  "surname" : "Aslan",
+                  "cinsiyet" : "E",
+                  "bornyear" : "16-06-2043",
+                  "partner" : {
+                    "name" : "Ayşe",
+                    "surname" : "Aslan",
+                    "bornyear" : "16-06-2043",
+                    "personalid" : "4779"
+                  },
+                  "children" : [ {
+                    "personalid" : "4782",
+                    "name" : "Ali",
+                    "surname" : "Aslan",
+                    "cinsiyet" : "E",
+                    "bornyear" : "20-05-2065",
+                    "partner" : {
+                      "name" : "Aslı",
+                      "surname" : "Aslan",
+                      "bornyear" : "20-05-2065",
+                      "personalid" : "4781"
+                    },
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4784",
+              "name" : "Gizem",
+              "surname" : "Taş",
+              "cinsiyet" : "K",
+              "bornyear" : "17-08-2003",
+              "partner" : {
+                "name" : "Burak",
+                "surname" : "Taş",
+                "bornyear" : "17-08-2003",
+                "personalid" : "4783"
+              },
+              "children" : [ {
+                "personalid" : "4786",
+                "name" : "Arda",
+                "surname" : "Taş",
+                "cinsiyet" : "E",
+                "bornyear" : "07-11-2023",
+                "partner" : {
+                  "name" : "Derya",
+                  "surname" : "Taş",
+                  "bornyear" : "07-11-2023",
+                  "personalid" : "4785"
+                },
+                "children" : [ {
+                  "personalid" : "4788",
+                  "name" : "Mehmet",
+                  "surname" : "Taş",
+                  "cinsiyet" : "E",
+                  "bornyear" : "24-12-2043",
+                  "partner" : {
+                    "name" : "İpek",
+                    "surname" : "Taş",
+                    "bornyear" : "24-12-2043",
+                    "personalid" : "4787"
+                  },
+                  "children" : [ ]
+                } ]
+              }, {
+                "personalid" : "4790",
+                "name" : "Selin",
+                "surname" : "Koç",
+                "cinsiyet" : "K",
+                "bornyear" : "13-01-2024",
+                "partner" : {
+                  "name" : "Mert",
+                  "surname" : "Koç",
+                  "bornyear" : "13-01-2024",
+                  "personalid" : "4789"
+                },
+                "children" : [ {
+                  "personalid" : "4792",
+                  "name" : "Fatma",
+                  "surname" : "Bilgin",
+                  "cinsiyet" : "K",
+                  "bornyear" : "19-08-2045",
+                  "partner" : {
+                    "name" : "Ahmet",
+                    "surname" : "Bilgin",
+                    "bornyear" : "19-08-2045",
+                    "personalid" : "4791"
+                  },
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4794",
+                  "name" : "Mucip",
+                  "surname" : "Koç",
+                  "cinsiyet" : "E",
+                  "bornyear" : "03-04-2045",
+                  "partner" : {
+                    "name" : "Elif",
+                    "surname" : "Koç",
+                    "bornyear" : "03-04-2045",
+                    "personalid" : "4793"
+                  },
+                  "children" : [ {
+                    "personalid" : "4796",
+                    "name" : "Gizem",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "K",
+                    "bornyear" : "01-03-2066",
+                    "partner" : {
+                      "name" : "Onur",
+                      "surname" : "Çelik",
+                      "bornyear" : "01-03-2066",
+                      "personalid" : "4795"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4798",
+                    "name" : "İpek",
+                    "surname" : "Koç",
+                    "cinsiyet" : "K",
+                    "bornyear" : "12-02-2067",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4800",
+                    "name" : "Gizem",
+                    "surname" : "Koç",
+                    "cinsiyet" : "K",
+                    "bornyear" : "20-08-2066",
+                    "partner" : {
+                      "name" : "Onur",
+                      "surname" : "Koç",
+                      "bornyear" : "20-08-2066",
+                      "personalid" : "4799"
+                    },
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4802",
+              "name" : "Ali",
+              "surname" : "Güneş",
+              "cinsiyet" : "E",
+              "bornyear" : "20-05-2003",
+              "partner" : {
+                "name" : "Elif",
+                "surname" : "Güneş",
+                "bornyear" : "20-05-2003",
+                "personalid" : "4801"
+              },
+              "children" : [ {
+                "personalid" : "4804",
+                "name" : "İpek",
+                "surname" : "Bozkurt",
+                "cinsiyet" : "K",
+                "bornyear" : "25-11-2023",
+                "partner" : {
+                  "name" : "Kerem",
+                  "surname" : "Bozkurt",
+                  "bornyear" : "25-11-2023",
+                  "personalid" : "4803"
+                },
+                "children" : [ {
+                  "personalid" : "4806",
+                  "name" : "Cansu",
+                  "surname" : "Bilgin",
+                  "cinsiyet" : "K",
+                  "bornyear" : "15-09-2045",
+                  "partner" : {
+                    "name" : "Burak",
+                    "surname" : "Bilgin",
+                    "bornyear" : "15-09-2045",
+                    "personalid" : "4805"
+                  },
+                  "children" : [ {
+                    "personalid" : "4808",
+                    "name" : "Selin",
+                    "surname" : "Güneş",
+                    "cinsiyet" : "K",
+                    "bornyear" : "30-12-2065",
+                    "partner" : {
+                      "name" : "Mehmet",
+                      "surname" : "Güneş",
+                      "bornyear" : "30-12-2065",
+                      "personalid" : "4807"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4810",
+                    "name" : "Melis",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "K",
+                    "bornyear" : "31-01-2067",
+                    "partner" : {
+                      "name" : "Baran",
+                      "surname" : "Korkmaz",
+                      "bornyear" : "31-01-2067",
+                      "personalid" : "4809"
+                    },
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4812",
+                  "name" : "Zeynep",
+                  "surname" : "Korkmaz",
+                  "cinsiyet" : "K",
+                  "bornyear" : "16-08-2045",
+                  "partner" : {
+                    "name" : "Kerem",
+                    "surname" : "Korkmaz",
+                    "bornyear" : "16-08-2045",
+                    "personalid" : "4811"
+                  },
+                  "children" : [ {
+                    "personalid" : "4814",
+                    "name" : "Serkan",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "E",
+                    "bornyear" : "19-05-2066",
+                    "partner" : {
+                      "name" : "Sibel",
+                      "surname" : "Korkmaz",
+                      "bornyear" : "19-05-2066",
+                      "personalid" : "4813"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4816",
+                    "name" : "Ege",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "E",
+                    "bornyear" : "02-10-2066",
+                    "partner" : {
+                      "name" : "Selin",
+                      "surname" : "Korkmaz",
+                      "bornyear" : "02-10-2066",
+                      "personalid" : "4815"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4818",
+                    "name" : "Ezgi",
+                    "surname" : "Korkmaz",
+                    "cinsiyet" : "K",
+                    "bornyear" : "24-12-2066",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4820",
+                  "name" : "Ahmet",
+                  "surname" : "Bozkurt",
+                  "cinsiyet" : "E",
+                  "bornyear" : "03-11-2045",
+                  "partner" : {
+                    "name" : "Elif",
+                    "surname" : "Bozkurt",
+                    "bornyear" : "03-11-2045",
+                    "personalid" : "4819"
+                  },
+                  "children" : [ {
+                    "personalid" : "4822",
+                    "name" : "İpek",
+                    "surname" : "Yanalak",
+                    "cinsiyet" : "K",
+                    "bornyear" : "28-11-2065",
+                    "partner" : {
+                      "name" : "Cem",
+                      "surname" : "Yanalak",
+                      "bornyear" : "28-11-2065",
+                      "personalid" : "4821"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4824",
+                    "name" : "Arda",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "03-07-2066",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4826",
+                    "name" : "İpek",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "K",
+                    "bornyear" : "31-10-2066",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              }, {
+                "personalid" : "4828",
+                "name" : "Onur",
+                "surname" : "Güneş",
+                "cinsiyet" : "E",
+                "bornyear" : "02-06-2024",
+                "partner" : {
+                  "name" : "Selin",
+                  "surname" : "Güneş",
+                  "bornyear" : "02-06-2024",
+                  "personalid" : "4827"
+                },
+                "children" : [ {
+                  "personalid" : "4830",
+                  "name" : "Ezgi",
+                  "surname" : "Güneş",
+                  "cinsiyet" : "K",
+                  "bornyear" : "11-04-2046",
+                  "partner" : null,
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4832",
+                  "name" : "Derya",
+                  "surname" : "Yanalak",
+                  "cinsiyet" : "K",
+                  "bornyear" : "26-05-2045",
+                  "partner" : {
+                    "name" : "Burak",
+                    "surname" : "Yanalak",
+                    "bornyear" : "26-05-2045",
+                    "personalid" : "4831"
+                  },
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4834",
+                  "name" : "Selin",
+                  "surname" : "Bozkurt",
+                  "cinsiyet" : "K",
+                  "bornyear" : "04-09-2045",
+                  "partner" : {
+                    "name" : "Cem",
+                    "surname" : "Bozkurt",
+                    "bornyear" : "04-09-2045",
+                    "personalid" : "4833"
+                  },
+                  "children" : [ {
+                    "personalid" : "4836",
+                    "name" : "Ahmet",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "22-03-2066",
+                    "partner" : {
+                      "name" : "Hülya",
+                      "surname" : "Bozkurt",
+                      "bornyear" : "22-03-2066",
+                      "personalid" : "4835"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4838",
+                    "name" : "İpek",
+                    "surname" : "Güneş",
+                    "cinsiyet" : "K",
+                    "bornyear" : "04-07-2066",
+                    "partner" : {
+                      "name" : "Ahmet",
+                      "surname" : "Güneş",
+                      "bornyear" : "04-07-2066",
+                      "personalid" : "4837"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4840",
+                    "name" : "Cem",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "17-11-2065",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "personalid" : "4842",
+        "name" : "Ege",
+        "surname" : "Arslan",
+        "cinsiyet" : "E",
+        "bornyear" : "26-11-1941",
+        "partner" : {
+          "name" : "Derya",
+          "surname" : "Arslan",
+          "bornyear" : "26-11-1941",
+          "personalid" : "4841"
+        },
+        "children" : [ {
+          "personalid" : "4844",
+          "name" : "Ali",
+          "surname" : "Arslan",
+          "cinsiyet" : "E",
+          "bornyear" : "17-11-1963",
+          "partner" : {
+            "name" : "Ezgi",
+            "surname" : "Arslan",
+            "bornyear" : "17-11-1963",
+            "personalid" : "4843"
+          },
+          "children" : [ {
+            "personalid" : "4846",
+            "name" : "Sena",
+            "surname" : "Aslan",
+            "cinsiyet" : "K",
+            "bornyear" : "22-12-1983",
+            "partner" : {
+              "name" : "Ali",
+              "surname" : "Aslan",
+              "bornyear" : "22-12-1983",
+              "personalid" : "4845"
+            },
+            "children" : [ {
+              "personalid" : "4848",
+              "name" : "Zeynep",
+              "surname" : "Korkmaz",
+              "cinsiyet" : "K",
+              "bornyear" : "16-07-2004",
+              "partner" : {
+                "name" : "Ali",
+                "surname" : "Korkmaz",
+                "bornyear" : "16-07-2004",
+                "personalid" : "4847"
+              },
+              "children" : [ {
+                "personalid" : "4850",
+                "name" : "Selin",
+                "surname" : "Kurt",
+                "cinsiyet" : "K",
+                "bornyear" : "18-07-2025",
+                "partner" : {
+                  "name" : "Arda",
+                  "surname" : "Kurt",
+                  "bornyear" : "18-07-2025",
+                  "personalid" : "4849"
+                },
+                "children" : [ {
+                  "personalid" : "4852",
+                  "name" : "Sibel",
+                  "surname" : "Şeker",
+                  "cinsiyet" : "K",
+                  "bornyear" : "19-09-2046",
+                  "partner" : {
+                    "name" : "Burak",
+                    "surname" : "Şeker",
+                    "bornyear" : "19-09-2046",
+                    "personalid" : "4851"
+                  },
+                  "children" : [ {
+                    "personalid" : "4854",
+                    "name" : "Can",
+                    "surname" : "Şeker",
+                    "cinsiyet" : "E",
+                    "bornyear" : "20-10-2067",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4856",
+              "name" : "Ahmet",
+              "surname" : "Aslan",
+              "cinsiyet" : "E",
+              "bornyear" : "26-04-2005",
+              "partner" : {
+                "name" : "Gizem",
+                "surname" : "Aslan",
+                "bornyear" : "26-04-2005",
+                "personalid" : "4855"
+              },
+              "children" : [ {
+                "personalid" : "4858",
+                "name" : "Kerem",
+                "surname" : "Aslan",
+                "cinsiyet" : "E",
+                "bornyear" : "02-01-2026",
+                "partner" : {
+                  "name" : "Selin",
+                  "surname" : "Aslan",
+                  "bornyear" : "02-01-2026",
+                  "personalid" : "4857"
+                },
+                "children" : [ {
+                  "personalid" : "4860",
+                  "name" : "Mucip",
+                  "surname" : "Aslan",
+                  "cinsiyet" : "E",
+                  "bornyear" : "16-11-2046",
+                  "partner" : {
+                    "name" : "Sibel",
+                    "surname" : "Aslan",
+                    "bornyear" : "16-11-2046",
+                    "personalid" : "4859"
+                  },
+                  "children" : [ {
+                    "personalid" : "4862",
+                    "name" : "Ezgi",
+                    "surname" : "Aslan",
+                    "cinsiyet" : "K",
+                    "bornyear" : "08-10-2068",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              }, {
+                "personalid" : "4864",
+                "name" : "Cansu",
+                "surname" : "Güneş",
+                "cinsiyet" : "K",
+                "bornyear" : "20-04-2027",
+                "partner" : {
+                  "name" : "Ahmet",
+                  "surname" : "Güneş",
+                  "bornyear" : "20-04-2027",
+                  "personalid" : "4863"
+                },
+                "children" : [ {
+                  "personalid" : "4866",
+                  "name" : "Selin",
+                  "surname" : "Koç",
+                  "cinsiyet" : "K",
+                  "bornyear" : "19-07-2048",
+                  "partner" : {
+                    "name" : "Arda",
+                    "surname" : "Koç",
+                    "bornyear" : "19-07-2048",
+                    "personalid" : "4865"
+                  },
+                  "children" : [ {
+                    "personalid" : "4868",
+                    "name" : "Kerem",
+                    "surname" : "Koç",
+                    "cinsiyet" : "E",
+                    "bornyear" : "29-08-2068",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              }, {
+                "personalid" : "4870",
+                "name" : "Elif",
+                "surname" : "Çelik",
+                "cinsiyet" : "K",
+                "bornyear" : "25-02-2026",
+                "partner" : {
+                  "name" : "Baran",
+                  "surname" : "Çelik",
+                  "bornyear" : "25-02-2026",
+                  "personalid" : "4869"
+                },
+                "children" : [ {
+                  "personalid" : "4872",
+                  "name" : "Hülya",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "K",
+                  "bornyear" : "11-08-2047",
+                  "partner" : null,
+                  "children" : [ ]
+                }, {
+                  "personalid" : "4874",
+                  "name" : "Can",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "E",
+                  "bornyear" : "01-06-2046",
+                  "partner" : {
+                    "name" : "Zeynep",
+                    "surname" : "Çelik",
+                    "bornyear" : "01-06-2046",
+                    "personalid" : "4873"
+                  },
+                  "children" : [ {
+                    "personalid" : "4876",
+                    "name" : "Cem",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "E",
+                    "bornyear" : "06-05-2068",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4878",
+                  "name" : "Arda",
+                  "surname" : "Çelik",
+                  "cinsiyet" : "E",
+                  "bornyear" : "30-05-2046",
+                  "partner" : {
+                    "name" : "Hülya",
+                    "surname" : "Çelik",
+                    "bornyear" : "30-05-2046",
+                    "personalid" : "4877"
+                  },
+                  "children" : [ {
+                    "personalid" : "4880",
+                    "name" : "Serkan",
+                    "surname" : "Çelik",
+                    "cinsiyet" : "E",
+                    "bornyear" : "29-06-2067",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4882",
+              "name" : "Ege",
+              "surname" : "Aslan",
+              "cinsiyet" : "E",
+              "bornyear" : "26-09-2005",
+              "partner" : {
+                "name" : "Melis",
+                "surname" : "Aslan",
+                "bornyear" : "26-09-2005",
+                "personalid" : "4881"
+              },
+              "children" : [ {
+                "personalid" : "4884",
+                "name" : "Mucip",
+                "surname" : "Aslan",
+                "cinsiyet" : "E",
+                "bornyear" : "11-05-2027",
+                "partner" : null,
+                "children" : [ ]
+              }, {
+                "personalid" : "4886",
+                "name" : "Ege",
+                "surname" : "Aslan",
+                "cinsiyet" : "E",
+                "bornyear" : "03-01-2027",
+                "partner" : {
+                  "name" : "Fatma",
+                  "surname" : "Aslan",
+                  "bornyear" : "03-01-2027",
+                  "personalid" : "4885"
+                },
+                "children" : [ {
+                  "personalid" : "4888",
+                  "name" : "Emre",
+                  "surname" : "Aslan",
+                  "cinsiyet" : "E",
+                  "bornyear" : "03-07-2048",
+                  "partner" : {
+                    "name" : "Ezgi",
+                    "surname" : "Aslan",
+                    "bornyear" : "03-07-2048",
+                    "personalid" : "4887"
+                  },
+                  "children" : [ {
+                    "personalid" : "4890",
+                    "name" : "Serkan",
+                    "surname" : "Aslan",
+                    "cinsiyet" : "E",
+                    "bornyear" : "15-05-2069",
+                    "partner" : {
+                      "name" : "Ayşe",
+                      "surname" : "Aslan",
+                      "bornyear" : "15-05-2069",
+                      "personalid" : "4889"
+                    },
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "personalid" : "4892",
+            "name" : "Mucip",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "24-08-1984",
+            "partner" : {
+              "name" : "Elif",
+              "surname" : "Arslan",
+              "bornyear" : "24-08-1984",
+              "personalid" : "4891"
+            },
+            "children" : [ {
+              "personalid" : "4894",
+              "name" : "Sena",
+              "surname" : "Korkmaz",
+              "cinsiyet" : "K",
+              "bornyear" : "09-04-2005",
+              "partner" : {
+                "name" : "Ahmet",
+                "surname" : "Korkmaz",
+                "bornyear" : "09-04-2005",
+                "personalid" : "4893"
+              },
+              "children" : [ {
+                "personalid" : "4896",
+                "name" : "Aslı",
+                "surname" : "Çelik",
+                "cinsiyet" : "K",
+                "bornyear" : "11-09-2025",
+                "partner" : {
+                  "name" : "Ege",
+                  "surname" : "Çelik",
+                  "bornyear" : "11-09-2025",
+                  "personalid" : "4895"
+                },
+                "children" : [ {
+                  "personalid" : "4898",
+                  "name" : "Cansu",
+                  "surname" : "Acar",
+                  "cinsiyet" : "K",
+                  "bornyear" : "01-02-2047",
+                  "partner" : {
+                    "name" : "Emre",
+                    "surname" : "Acar",
+                    "bornyear" : "01-02-2047",
+                    "personalid" : "4897"
+                  },
+                  "children" : [ {
+                    "personalid" : "4900",
+                    "name" : "Ege",
+                    "surname" : "Acar",
+                    "cinsiyet" : "E",
+                    "bornyear" : "06-02-2068",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4902",
+                    "name" : "Can",
+                    "surname" : "Acar",
+                    "cinsiyet" : "E",
+                    "bornyear" : "22-11-2067",
+                    "partner" : {
+                      "name" : "Ayşe",
+                      "surname" : "Acar",
+                      "bornyear" : "22-11-2067",
+                      "personalid" : "4901"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4904",
+                    "name" : "Elif",
+                    "surname" : "Acar",
+                    "cinsiyet" : "K",
+                    "bornyear" : "02-10-2068",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4906",
+                  "name" : "Selin",
+                  "surname" : "Kaya",
+                  "cinsiyet" : "K",
+                  "bornyear" : "08-10-2045",
+                  "partner" : {
+                    "name" : "Mehmet",
+                    "surname" : "Kaya",
+                    "bornyear" : "08-10-2045",
+                    "personalid" : "4905"
+                  },
+                  "children" : [ {
+                    "personalid" : "4908",
+                    "name" : "Mehmet",
+                    "surname" : "Kaya",
+                    "cinsiyet" : "E",
+                    "bornyear" : "10-10-2065",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4910",
+                    "name" : "Serkan",
+                    "surname" : "Kaya",
+                    "cinsiyet" : "E",
+                    "bornyear" : "12-11-2065",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4912",
+                    "name" : "Emre",
+                    "surname" : "Kaya",
+                    "cinsiyet" : "E",
+                    "bornyear" : "30-11-2065",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            }, {
+              "personalid" : "4914",
+              "name" : "Cansu",
+              "surname" : "Acar",
+              "cinsiyet" : "K",
+              "bornyear" : "23-05-2006",
+              "partner" : {
+                "name" : "Ege",
+                "surname" : "Acar",
+                "bornyear" : "23-05-2006",
+                "personalid" : "4913"
+              },
+              "children" : [ {
+                "personalid" : "4916",
+                "name" : "Selin",
+                "surname" : "Acar",
+                "cinsiyet" : "K",
+                "bornyear" : "04-01-2027",
+                "partner" : null,
+                "children" : [ ]
+              }, {
+                "personalid" : "4918",
+                "name" : "Derya",
+                "surname" : "Öztürk",
+                "cinsiyet" : "K",
+                "bornyear" : "11-12-2026",
+                "partner" : {
+                  "name" : "Kerem",
+                  "surname" : "Öztürk",
+                  "bornyear" : "11-12-2026",
+                  "personalid" : "4917"
+                },
+                "children" : [ {
+                  "personalid" : "4920",
+                  "name" : "Ayşe",
+                  "surname" : "Bozkurt",
+                  "cinsiyet" : "K",
+                  "bornyear" : "29-04-2047",
+                  "partner" : {
+                    "name" : "Mucip",
+                    "surname" : "Bozkurt",
+                    "bornyear" : "29-04-2047",
+                    "personalid" : "4919"
+                  },
+                  "children" : [ {
+                    "personalid" : "4922",
+                    "name" : "Onur",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "E",
+                    "bornyear" : "02-10-2068",
+                    "partner" : {
+                      "name" : "Hülya",
+                      "surname" : "Bozkurt",
+                      "bornyear" : "02-10-2068",
+                      "personalid" : "4921"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4924",
+                    "name" : "Selin",
+                    "surname" : "Bozkurt",
+                    "cinsiyet" : "K",
+                    "bornyear" : "11-12-2067",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                }, {
+                  "personalid" : "4926",
+                  "name" : "Ahmet",
+                  "surname" : "Öztürk",
+                  "cinsiyet" : "E",
+                  "bornyear" : "02-09-2047",
+                  "partner" : {
+                    "name" : "Ayşe",
+                    "surname" : "Öztürk",
+                    "bornyear" : "02-09-2047",
+                    "personalid" : "4925"
+                  },
+                  "children" : [ {
+                    "personalid" : "4928",
+                    "name" : "Elif",
+                    "surname" : "Öztürk",
+                    "cinsiyet" : "K",
+                    "bornyear" : "27-01-2069",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4930",
+                    "name" : "Cem",
+                    "surname" : "Öztürk",
+                    "cinsiyet" : "E",
+                    "bornyear" : "30-04-2068",
+                    "partner" : {
+                      "name" : "Aslı",
+                      "surname" : "Öztürk",
+                      "bornyear" : "30-04-2068",
+                      "personalid" : "4929"
+                    },
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4932",
+                    "name" : "Mert",
+                    "surname" : "Öztürk",
+                    "cinsiyet" : "E",
+                    "bornyear" : "21-07-2069",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "personalid" : "4934",
+            "name" : "Onur",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "15-10-1985",
+            "partner" : {
+              "name" : "Sena",
+              "surname" : "Arslan",
+              "bornyear" : "15-10-1985",
+              "personalid" : "4933"
+            },
+            "children" : [ {
+              "personalid" : "4936",
+              "name" : "Aslı",
+              "surname" : "Türkmen",
+              "cinsiyet" : "K",
+              "bornyear" : "30-06-2007",
+              "partner" : {
+                "name" : "Mehmet",
+                "surname" : "Türkmen",
+                "bornyear" : "30-06-2007",
+                "personalid" : "4935"
+              },
+              "children" : [ {
+                "personalid" : "4938",
+                "name" : "Serkan",
+                "surname" : "Türkmen",
+                "cinsiyet" : "E",
+                "bornyear" : "29-04-2028",
+                "partner" : {
+                  "name" : "Zeynep",
+                  "surname" : "Türkmen",
+                  "bornyear" : "29-04-2028",
+                  "personalid" : "4937"
+                },
+                "children" : [ ]
+              } ]
+            } ]
+          } ]
+        }, {
+          "personalid" : "4940",
+          "name" : "Ali",
+          "surname" : "Arslan",
+          "cinsiyet" : "E",
+          "bornyear" : "30-01-1962",
+          "partner" : {
+            "name" : "Zeynep",
+            "surname" : "Arslan",
+            "bornyear" : "30-01-1962",
+            "personalid" : "4939"
+          },
+          "children" : [ {
+            "personalid" : "4942",
+            "name" : "Derya",
+            "surname" : "Yanalak",
+            "cinsiyet" : "K",
+            "bornyear" : "23-09-1982",
+            "partner" : {
+              "name" : "Mucip",
+              "surname" : "Yanalak",
+              "bornyear" : "23-09-1982",
+              "personalid" : "4941"
+            },
+            "children" : [ ]
+          }, {
+            "personalid" : "4944",
+            "name" : "Arda",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "16-12-1983",
+            "partner" : {
+              "name" : "Cansu",
+              "surname" : "Arslan",
+              "bornyear" : "16-12-1983",
+              "personalid" : "4943"
+            },
+            "children" : [ {
+              "personalid" : "4946",
+              "name" : "Ahmet",
+              "surname" : "Arslan",
+              "cinsiyet" : "E",
+              "bornyear" : "06-06-2005",
+              "partner" : null,
+              "children" : [ ]
+            }, {
+              "personalid" : "4948",
+              "name" : "Elif",
+              "surname" : "Kaya",
+              "cinsiyet" : "K",
+              "bornyear" : "04-06-2005",
+              "partner" : {
+                "name" : "Burak",
+                "surname" : "Kaya",
+                "bornyear" : "04-06-2005",
+                "personalid" : "4947"
+              },
+              "children" : [ {
+                "personalid" : "4950",
+                "name" : "Aslı",
+                "surname" : "Acar",
+                "cinsiyet" : "K",
+                "bornyear" : "17-06-2026",
+                "partner" : {
+                  "name" : "Emre",
+                  "surname" : "Acar",
+                  "bornyear" : "17-06-2026",
+                  "personalid" : "4949"
+                },
+                "children" : [ {
+                  "personalid" : "4952",
+                  "name" : "Kerem",
+                  "surname" : "Acar",
+                  "cinsiyet" : "E",
+                  "bornyear" : "17-08-2046",
+                  "partner" : null,
+                  "children" : [ ]
+                } ]
+              }, {
+                "personalid" : "4954",
+                "name" : "Kerem",
+                "surname" : "Kaya",
+                "cinsiyet" : "E",
+                "bornyear" : "26-02-2026",
+                "partner" : {
+                  "name" : "Gizem",
+                  "surname" : "Kaya",
+                  "bornyear" : "26-02-2026",
+                  "personalid" : "4953"
+                },
+                "children" : [ {
+                  "personalid" : "4956",
+                  "name" : "Cansu",
+                  "surname" : "Bilgin",
+                  "cinsiyet" : "K",
+                  "bornyear" : "14-04-2046",
+                  "partner" : {
+                    "name" : "Emre",
+                    "surname" : "Bilgin",
+                    "bornyear" : "14-04-2046",
+                    "personalid" : "4955"
+                  },
+                  "children" : [ {
+                    "personalid" : "4958",
+                    "name" : "Zeynep",
+                    "surname" : "Bilgin",
+                    "cinsiyet" : "K",
+                    "bornyear" : "11-08-2066",
+                    "partner" : null,
+                    "children" : [ ]
+                  }, {
+                    "personalid" : "4960",
+                    "name" : "Fatma",
+                    "surname" : "Bilgin",
+                    "cinsiyet" : "K",
+                    "bornyear" : "11-09-2067",
+                    "partner" : null,
+                    "children" : [ ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          }, {
+            "personalid" : "4962",
+            "name" : "Kerem",
+            "surname" : "Arslan",
+            "cinsiyet" : "E",
+            "bornyear" : "16-02-1982",
+            "partner" : null,
+            "children" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
 }

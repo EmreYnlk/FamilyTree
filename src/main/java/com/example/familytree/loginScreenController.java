@@ -22,6 +22,7 @@ public class loginScreenController {
 
     @FXML
     private void login() throws IOException {
+        if (searchScreenController.kullanilanHashTablosu!=null){searchScreenController.kullanilanHashTablosu=null;}
         String familyNameString = familyName.getText();
         if(isFamilyNameinList(familyNameString)){
 
@@ -48,6 +49,7 @@ public class loginScreenController {
                     try {
                         FamilyTree asd = Json_WriterandReader.readFamilyTree(familyNameString);
                         treeOperationsController.currentfamilyroot = asd.root;
+                        FamilyTree.setRoot(familyNameString,asd.root);
                     } catch (Exception e) {
                         throw new RuntimeException(e);
                     }
