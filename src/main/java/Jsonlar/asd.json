@@ -1,4 +1,12 @@
 {
-  "familytreename": "asd",
-  "allMembers": []
+  "familytreename" : "asd",
+  "allMembers" : [ {
+    "personalid" : "21668",
+    "name" : "a",
+    "surname" : "w",
+    "cinsiyet" : "E",
+    "bornyear" : "08-05-2025",
+    "partner" : null,
+    "children" : [ ]
+  } ]
 }

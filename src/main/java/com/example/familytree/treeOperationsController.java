@@ -135,11 +135,14 @@ public class treeOperationsController implements Initializable {
     }
 
     private void jsonayaz(){
-        try {
-            Json_WriterandReader.writeFamilyTree(mainScreenController.getCurrentFamilyName(),currentfamilyroot);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        if (currentfamilyroot!=null){
+            try {
+                Json_WriterandReader.writeFamilyTree(mainScreenController.getCurrentFamilyName(),currentfamilyroot);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
+
     }
     @FXML
     public void bringinformation() {
